@@ -30,7 +30,7 @@ A+B= 5
 D=0
 # Coeficientes  de  A
 4A=5
-A = \frac{5}{4}
+\[4A = 5 \quad \Rightarrow \quad A = \frac{5}{4}\]
 >>
 # Expandimos los términos:
 >>
