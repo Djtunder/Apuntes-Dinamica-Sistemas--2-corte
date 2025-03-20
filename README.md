@@ -23,7 +23,6 @@ Multiplicamos ambos lados por \( s^2 + 4 \):
 
 $$ A(s^2 + 4) + Bs^2 + Ds = 5 + 5s^2 $$
 >>
->>
 # Coeficientes de S^2
 A+B= 5
 # Coeficientes de S
@@ -38,4 +37,8 @@ $$ A = \frac{5}{4} $$
 $$ As^2 + 4A + Bs^2 + Ds = 5 + 5s^2 $$
 >>
 
+$$\frac{5}{4} + B = 5 $$
 
+$$ B = 5 - \frac{5}{4} $$
+$$ B = \frac{-5 + 20}{4} $$
+$$ B = -\frac{15}{4} $$
