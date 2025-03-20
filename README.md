@@ -45,5 +45,5 @@ $$ B = -\frac{15}{4} $$
 >>
 Aplicamos la transformada inversa de Laplace:
 >>
-$$\mathcal{L}^{-1}\left\{ X(s) \right\} = \frac{5}{4} - \frac{15}{4} \cos(2t)$$
+$$ \mathcal{L}^{-1}\left\{ X(s) \right\} = \frac{5}{4} - \frac{15}{4} \cos(2t) $$
 >>
