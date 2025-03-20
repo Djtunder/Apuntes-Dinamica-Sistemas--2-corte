@@ -42,3 +42,9 @@ $$\frac{5}{4} + B = 5 $$
 $$ B = 5 - \frac{5}{4} $$
 $$ B = \frac{-5 + 20}{4} $$
 $$ B = -\frac{15}{4} $$
+>>
+Aplicamos la transformada inversa de Laplace:
+$$
+\mathcal{L}^{-1}\left\{ X(s) \right\} = \frac{5}{4} - \frac{15}{4} \cos(2t)
+$$
+>>
