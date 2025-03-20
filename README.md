@@ -16,3 +16,20 @@ $$
 $$
 X(s)(s^2 + 4) = \frac{5}{s} + 5s
 $$
+>>
+\[
+X(s) = \frac{5 + 5s^2}{s^2 + 4} = \frac{A}{s} + \frac{Bs + D}{s^2 + 4}
+\]
+
+Multiplicamos ambos lados por \( s^2 + 4 \):
+
+\[
+A(s^2 + 4) + Bs^2 + Ds = 5 + 5s^2
+\]
+
+Expandimos los términos:
+
+\[
+As^2 + 4A + Bs^2 + Ds = 5 + 5s^2
+\]
+
