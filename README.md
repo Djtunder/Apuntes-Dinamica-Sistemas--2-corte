@@ -30,10 +30,11 @@ A+B= 5
 D=0
 # Coeficientes  de  A
 4A=5
-A=\frac{5}{4}
+A = \frac{5}{4}
 >>
 # Expandimos los términos:
 >>
 $$ As^2 + 4A + Bs^2 + Ds = 5 + 5s^2 $$
+>>
 
 
