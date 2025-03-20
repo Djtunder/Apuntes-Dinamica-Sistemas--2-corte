@@ -22,9 +22,18 @@ $$ X(s) = \frac{5 + 5s^2}{s^2 + 4} = \frac{A}{s} + \frac{Bs + D}{s^2 + 4} $$
 Multiplicamos ambos lados por \( s^2 + 4 \):
 
 $$ A(s^2 + 4) + Bs^2 + Ds = 5 + 5s^2 $$
-
-Expandimos los términos:
-
+>>
+>>
+# Coeficientes\ de\ S^2
+A+B=\ 5
+# Coeficientes\ de\ S
+D=0
+# Coeficientes\ de\ A
+4A=5
+A=\frac{5}{4}
+>>
+# Expandimos los términos:
+>>
 $$ As^2 + 4A + Bs^2 + Ds = 5 + 5s^2 $$
 
 
