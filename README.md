@@ -24,11 +24,11 @@ Multiplicamos ambos lados por \( s^2 + 4 \):
 $$ A(s^2 + 4) + Bs^2 + Ds = 5 + 5s^2 $$
 >>
 >>
-# Coeficientes\ de\ S^2
-A+B=\ 5
-# Coeficientes\ de\ S
+# Coeficientes de S^2
+A+B= 5
+# Coeficientes de S
 D=0
-# Coeficientes\ de\ A
+# Coeficientes  de  A
 4A=5
 A=\frac{5}{4}
 >>
