@@ -150,11 +150,11 @@ D = 4
 $$
 >>
 >>
-\[\mathcal{L}^{-1}\left\{X(s)\right\} = \frac{-1}{5} \mathcal{L}^{-1} \left\{ \frac{1}{s} \right\} + \frac{20}{4} \mathcal{L}^{-1} \left\{ \frac{1}{2s^2 + 2s + 1} \right\}\]
+$$ [\mathcal{L}^{-1}\left\{X(s)\right\} = \frac{-1}{5} \mathcal{L}^{-1} \left\{ \frac{1}{s} \right\} + \frac{20}{4} \mathcal{L}^{-1} \left\{ \frac{1}{2s^2 + 2s + 1} \right\}\]$$
 
-\[\mathcal{L}^{-1} \left\{ \frac{1}{s} \right\} = 1\]
+$$[\mathcal{L}^{-1} \left\{ \frac{1}{s} \right\} = 1\]$$
 
-\[\frac{-1}{5} \mathcal{L}^{-1} \left\{ \frac{1}{s} \right\} = \frac{-1}{5}\]
+[\frac{-1}{5} \mathcal{L}^{-1} \left\{ \frac{1}{s} \right\} = \frac{-1}{5}\]
 
 \[2s^2 + 2s + 1 = 2\left( \left( s + \frac{1}{2} \right)^2 + \frac{3}{4} \right)\]
 
