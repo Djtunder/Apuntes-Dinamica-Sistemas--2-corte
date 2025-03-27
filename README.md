@@ -47,7 +47,7 @@ Aplicamos la transformada inversa de Laplace:
 >>
 $$ \mathcal{L}^{-1}\{ X(s) \} = \frac{5}{4} - \frac{15}{4} \cos(2t) $$
 >>
-## 2 EJERCIO
+## Segundo Ejercicio
 >>
 $$
 F(s) = 2\ddot{x} + 2x + x = 1, \quad X(0) = 0, \quad X'(0) = 2
@@ -148,4 +148,9 @@ $$
 $$
 D = 4
 $$
+>>
+\[
+\mathcal{L}^{-1}\left\{X(s)\right\} = \frac{-1}{5} \mathcal{L}^{-1} \left\{ \frac{1}{s} \right\} + \frac{20}{4} \mathcal{L}^{-1} \left\{ \frac{1}{2s^2 + 2s + 1} \right\}
+\]
+
 
