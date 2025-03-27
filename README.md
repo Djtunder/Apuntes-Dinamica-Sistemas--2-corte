@@ -150,7 +150,7 @@ D = 4
 $$
 >>
 >>
-$$ [\mathcal{L}^{-1}\left\{X(s)\right\} = \frac{-1}{5} \mathcal{L}^{-1} \left\{ \frac{1}{s} \right\} + \frac{20}{4} \mathcal{L}^{-1} \left\{ \frac{1}{2s^2 + 2s + 1} \right\}\]$$
+$$ [\mathcal{L}^{-1}\{X(s)\right\} = \frac{-1}{5} \mathcal{L}^{-1} \ \frac{1}{s} \right\} + \frac{20}{4} \mathcal{L}^{-1}\{ \frac{1}{2s^2 + 2s + 1} \right\}\]$$
 
 $$[\mathcal{L}^{-1} \left\{ \frac{1}{s} \right\} = 1\]$$
 
