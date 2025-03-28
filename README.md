@@ -149,6 +149,25 @@ $$
 D = 4
 $$
 >>
+$$
+F(s) = \frac{5(s+2)}{s^2(s^2 - 4s + 8)}
+$$
+
+Expandiendo en fracciones parciales:
+
+$$
+F(s) = \frac{5(s+2)}{s^2(s^2 - 4s + 8)} = \frac{A}{s} + \frac{B}{s^2} + \frac{Cs+D}{s^2 - 4s + 8}
+$$
+
+Para encontrar \( A \), evaluamos en \( s = 2 \):
+
+$$
+A = \left. \frac{5(2+2)}{(2^2 - 4(2) + 8)} \right|_{s=2}
+$$
+
+$$
+A = \frac{10}{8} = \frac{5}{4}
+$$
 
 
 
