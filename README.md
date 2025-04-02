@@ -168,6 +168,89 @@ $$
 $$
 A = \frac{10}{8} = \frac{5}{4}
 $$
+Sabemos que \( B = 0 \) porque al usar anuladores con \( s = -2 \), se cancela el numerador.
+
+La ecuación para A es:
+
+$$
+A = \frac{5(S + 2)}{S^2}
+$$
+
+$$
+A = \frac{5(S^2 - 4S + 8) - 5(S + 2)(2S - 4)}{(S^2 - 4S + 8)}
+$$
+
+Evaluando en \( S = 2 + 2i \):
+
+$$
+\left.\frac{5(S + 2)}{S^2}\right|_{S = 2 + 2i}
+$$
+
+$$
+\left.CS + D\right|_{S = 2 + 2i}
+$$
+
+Sustituyendo \( S = 2 + 2i \):
+
+$$
+\frac{5(2 + 2i + 2)}{(2 + 2i)^2} = 2C + 2Ci + D
+$$
+
+$$
+\frac{10 + 10i + 10}{4 + 8i - 4} = 2C + 2Ci + D
+$$
+
+Simplificando:
+
+$$
+\frac{20 + 10i}{8i} \cdot \frac{-8i}{-8i}
+$$
+
+$$
+\frac{-160 + 80}{64} = 2C + 2Ci + D
+$$
+
+$$
+\frac{-160i + 80}{64} = 2C + 2Ci + D
+$$
+
+Igualando los coeficientes de la parte real y la parte imaginaria:
+
+Parte imaginaria:
+
+$$
+2Ci = \frac{-160i}{64}
+$$
+
+$$
+C = \frac{-160i}{\frac{64}{2i}}
+$$
+
+$$
+C = \frac{-160i}{128i}
+$$
+
+$$
+C = \frac{-1}{4}
+$$
+
+Parte real:
+
+$$
+\frac{80}{64} = 2C + D
+$$
+
+$$
+D = \frac{80 \times 128}{64 \times 2 \times 160}
+$$
+
+$$
+D = \frac{-10240}{20480}
+$$
+
+$$
+D = \frac{-1}{2}
+$$
 
 
 
