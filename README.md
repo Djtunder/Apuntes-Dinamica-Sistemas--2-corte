@@ -252,6 +252,12 @@ $$
 D = \frac{-1}{2}
 $$
 
+$$
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\mathcal{L}^{-1}\{X\left(s\right)\}\ =\ \frac{A}{S^2}+\frac{B}{S}-\frac{Cs+D}{S^{2\ }-4S+8}
+"><img src="http://www.alciro.org/cgi/tex.cgi?\mathcal{L}^{-1}\{X\left(s\right)\}\ =\ \frac{A}{S^2}+\frac{B}{S}-\frac{Cs+D}{S^{2\ }-4S+8}
+" title="\mathcal{L}^{-1}\{X\left(s\right)\}\ =\ \frac{A}{S^2}+\frac{B}{S}-\frac{Cs+D}{S^{2\ }-4S+8}
+" border="0" /></a>
+$$
 
 
 
