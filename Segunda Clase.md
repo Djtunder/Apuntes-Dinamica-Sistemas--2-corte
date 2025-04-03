@@ -17,7 +17,7 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  🔑 Resorte: Es un componente mecánico elástico diseñado para almacenar y liberar energía. Generalmente está fabricado con materiales metálicos, como acero al carbono o acero inoxidable, aunque también existen versiones no metálicas o en multitud de materiales para aplicaciones específicas. Este elemento representa la rigudez del cuerpo.
 >>
 
-![Figura 1](Imagenes/resorte.png)
+![Figura 1](
 
 
  
