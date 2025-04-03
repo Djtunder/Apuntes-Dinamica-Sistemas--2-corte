@@ -252,10 +252,23 @@ $$
 D = \frac{-1}{2}
 $$
 
+Calculamos la Transformada Inversa de Laplace
 
-$$
-mathcal{L}^{-1}\l{ X(s) \right\} = \frac{A}{S^2} + \frac{B}{S} - \frac{Cs + D}{S^2 - 4S + 8}}
-$$
+$$\mathcal{L}^{-1}\{ X(s) \} = \frac{A}{S^2} + \frac{B}{S} - \frac{Cs + D}{S^2 - 4S + 8}$$
+
+$$ \mathcal{L}^{-1}\{ X(s) \} = \frac{\frac{5}{4}}{S^2} - \frac{\frac{-1}{4} - \frac{1}{2}}{S^2 - 4S + 8} $$
+
+$$ \frac{5}{4} \mathcal{L}^{-1}\left( \frac{1}{S^2} \right) + \frac{1}{4} \mathcal{L}^{-1}\left( \frac{1}{S^2 - 4S + 8} \right) + \frac{1}{2} \mathcal{L}^{-1}\left( \frac{1}{S^2 - 4S + 8} \right) $$
+>>
+Calculamos cada una de las Transformadas por aparte
+
+$$ \mathcal{L}^{-1}\left( \frac{1}{S^2} \right) = t $$
+
+$$ \mathcal{L}^{-1}\left( \frac{1}{S^2 - 4S + 8} \right) = e^t \cos(2t) $$
+
+Por lo tanto, la transformada inversa de Laplace de la ecuación 
+
+$$ F(s) = \frac{5}{4} t + \frac{1}{4} e^t \cos(2t) + \frac{1}{2} e^t \cos(2t) $$
 
 
 
