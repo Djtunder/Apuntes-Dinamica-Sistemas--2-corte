@@ -16,10 +16,11 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  >>
  🔑 Resorte: Es un componente mecánico elástico diseñado para almacenar y liberar energía. Generalmente está fabricado con materiales metálicos, como acero al carbono o acero inoxidable, aunque también existen versiones no metálicas o en multitud de materiales para aplicaciones específicas. Este elemento representa la rigudez del cuerpo.
 >>
-
-![Figura 1](
-
-
- 
-
-
+ <div align="center">
+ <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/299363ee395bd9bfdcbfe020186725f9588064a1/resorte.jpg" width="300">
+  </div>
+>>
+ 🔑 Amortiguadores: Es un elemento que se emplea para representar pictoricamente las fuerzas de amortiguamiento que hacen mas lento el movimiento del objeto y consta de un piston que se mueve dentro de un clindro cerrado. El movimiento dentro del cilindro cerrado. El movimiento del piston requiere que el fluido pase de un lado a otro. Este produce una fuerza resistiva en el caso ideal, la Fuerza resistiva o de amaortiguamiento F es proporcional a la velocidad v del piston.
+ >>
+ <div align="center">
+< img src="
