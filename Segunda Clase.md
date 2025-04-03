@@ -26,4 +26,6 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  <div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/99ed05eb858429fc36236baf1b4e36178d610819/Build/amortiguador.jpg.png" width="300">
  </div>
- 🔑 Masas: 
+ 🔑 Masas: En un sistema masa-resorte, la masa es el objeto que está sujeto a la acción de la fuerza ejercida por el resorte. La masa representa la cantidad de materia de dicho objeto y es la responsable de su resistencia al movimiento, es decir, de su inercia. La masa exhibe la propiedad cuando analizamos el sistema entre mayor sea la masa, mayor es la fuerza reqerida para producir una aceleracion especifica. La relacion entre la Fuerza y la masa a es la segunda ley de newton.
+ 
+ 
