@@ -24,4 +24,6 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
 🔑 Amortiguadores: Es un elemento que se emplea para representar pictoricamente las fuerzas de amortiguamiento que hacen mas lento el movimiento del objeto y consta de un piston que se mueve dentro de un clindro cerrado. El movimiento dentro del cilindro cerrado. El movimiento del piston requiere que el fluido pase de un lado a otro. Este produce una fuerza resistiva en el caso ideal, la Fuerza resistiva o de amaortiguamiento F es proporcional a la velocidad v del piston.
  >>
  <div align="center">
-< img src="
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/99ed05eb858429fc36236baf1b4e36178d610819/Build/amortiguador.jpg.png" width="300">
+ </div>
+ 
