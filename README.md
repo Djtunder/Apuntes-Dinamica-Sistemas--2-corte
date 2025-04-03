@@ -254,7 +254,7 @@ $$
 
 
 $$
-mathcal{L}^{-1}\left\{ X(s) \right\} = \frac{A}{S^2} + \frac{B}{S} - \frac{Cs + D}{S^2 - 4S + 8}}
+mathcal{L}^{-1}\l{ X(s) \right\} = \frac{A}{S^2} + \frac{B}{S} - \frac{Cs + D}{S^2 - 4S + 8}}
 $$
 
 
