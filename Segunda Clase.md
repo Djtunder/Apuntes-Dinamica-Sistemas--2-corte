@@ -31,7 +31,9 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  <div align="center">
  <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/c13787753e34825e7a5794230e020255ca72a419/Build/masa.jpg" width="300">
  </div>
+
+ #FRICCION
  
- 
+ 🔑 Definicion:es un concepto que involucra la interacción entre un sistema de masa y resorte, considerando la resistencia al movimiento debido a la fricción. Este tipo de sistema es comúnmente analizado en la física para estudiar el comportamiento de oscilaciones amortiguadas.
   
  
