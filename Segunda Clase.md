@@ -28,7 +28,10 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  </div>
  🔑 Masas: En un sistema masa-resorte, la masa es el objeto que está sujeto a la acción de la fuerza ejercida por el resorte. La masa representa la cantidad de materia de dicho objeto y es la responsable de su resistencia al movimiento, es decir, de su inercia. La masa exhibe la propiedad cuando analizamos el sistema entre mayor sea la masa, mayor es la fuerza reqerida para producir una aceleracion especifica. La relacion entre la Fuerza y la masa a es la segunda ley de newton.
 
- <div align center="center">
- <img src= "
+ <div align="center">
+ <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/c13787753e34825e7a5794230e020255ca72a419/Build/masa.jpg" width="300">
+ </div>
+ 
+ 
   
  
