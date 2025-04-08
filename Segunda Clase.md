@@ -68,8 +68,8 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
   
   ## Sistemas de masa-resorte-Amortiguador.
   Definición: 
-   <div align= "center">
- <img src= "">
+ <div align= "center">
+ <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/6d1e8ea872022d29af1ecc33b73791ce8eff1b72/Build/sistema%20masa-resorte-amortiguador.jpg" width="300">
  </div>
   
   
