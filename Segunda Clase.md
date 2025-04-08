@@ -4,12 +4,12 @@
 # Curso: M6A
 
 # SISTEMAS MECANICOS
-## Introducción
+## 1. Introducción
 Para analizar los sistemas de control se necesitan emplear modelos matematicos que se basan en las leyes fisicas para gobernar el comportamiento de cualquier sistema.
 >>
  ¿Como empleamos los sistemas aplicando los Modelos Matematicos?
 >>
-A travez de los diagramas de Bloques, donde hay una entrada que se emplea una funcion matematica y una salida de esa funcion. Las Relaciones de entrada y salida se pueden definir dichos sistemas, tiene relaciones causa- efecto y entre estos elementos se conforman diferenters parametros de boques de funciones basicos para producir ecuaciones y principios matematicos.
+A travez de los diagramas de Bloques, donde hay una entrada que se emplea una funcion matematica y una salida de esa funcion. Las Relaciones de entrada y salida se pueden definir dichos sistemas, tiene relaciones causa- efecto y entre estos elementos se conforman diferentes parametros de bloques de funciones basicos para producir ecuaciones y principios matemáticos.
 
 # BLOQUES FUNCIONALES DE SISTEMAS MECANICOS
  Las formas basicas de los bloques funcionales de sistemas mecanicos son tres elementos que conforman son los resortes, masa, y amortiguadores.
@@ -73,7 +73,7 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/6d1e8ea872022d29af1ecc33b73791ce8eff1b72/Build/sistema%20masa-resorte-amortiguador.jpg" width="300">
  </div>
  
- # Ecuaciones
+ # 3. Ecuaciones
  
  $y = \textit{la salida que yo quiero conocer}$*
 
@@ -127,9 +127,16 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
  
  $$Ft = K1*Vm$$
 
- ##Ley de Hooke 
+ ## Ley de Hooke 
 🔑La ley de Hooke :Establece que es la Fuerza aplicada en el resorte, cuando esten es sistemas lineales, simplemente se mantienen al mantenimiento del material de referencia donde, hay una contante K y la elongación (x), aqui podemos visualizar la grafica del comportamiento donde se pueden ver los tres tipos de resortes en funcion de la Fuerza con respecto a su pocisión (x).
   
  <div align= "center">
- <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/52649eb86dc511eea11b6fb12642b7bc4d0621f1/Build/grafica%20de%20resortes.jpg width="300">
+ <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/52649eb86dc511eea11b6fb12642b7bc4d0621f1/Build/grafica%20de%20resortes.jpg" width="300">
  </div>
+
+4. Ejemplos
+Hallar la ecuacion Diferencial del sistema masa resorte- amortiguador
+1) Paso
+   Dibujar el Diagrama de Cuerpo Libre
+
+   
