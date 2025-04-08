@@ -120,6 +120,6 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
  🔑La fuerza de fricción Fv que actúa en el Movimiento Armónico Amortiguado es proporcional a la velocidad V en la mayoría de los casos de interés científico. Dicha fuerza tiene la forma Fv = bV, donde b es una constante positiva que depende de las características del fluido que ocasiona la fricción, entre otras cosas. Esta fricción, también conocida como Fricción Viscosa, se representa mediante un diagrama que consiste en un pistón y un cilindro lleno de aceite:
 
  <div align= "center">
- <img src=  >
+ <img src= "" >
  </div>
  
