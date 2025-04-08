@@ -116,18 +116,20 @@ $k = \textit{es la constante del resorte},$
 
 $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
 
- ## Frriccion Viscosa
- 🔑La fuerza de fricción Fv que actúa en el Movimiento Armónico Amortiguado es proporcional a la velocidad V en la mayoría de los casos de interés científico. Dicha fuerza tiene la forma Fv = bV, donde b es una constante positiva que depende de las características del fluido que ocasiona la fricción, entre otras cosas. Esta fricción, también conocida como Fricción Viscosa, se representa mediante un diagrama que consiste en un pistón y un cilindro lleno de aceite:
+ ## Fricción Viscosa
+🔑La fuerza de fricción Fv que actúa en el Movimiento Armónico Amortiguado es proporcional a la velocidad V en la mayoría de los casos de interés científico. Dicha fuerza tiene la forma Fv = bV, donde b es una constante positiva que depende de las características del fluido que ocasiona la fricción, entre otras cosas. Esta fricción, también conocida como Fricción Viscosa, se representa mediante un diagrama que consiste en un pistón y un cilindro lleno de aceite:
 
  <div align= "center">
  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/73ac419985aa61c9d8fd90870253d18a1c559a97/Build/null80.png" width="300">
  </div>
- Ecuacion 
- $$Ft= K1*Vm$$
+ 
+ Ecuación 
+ 
+ $$Ft = K1*Vm$$
 
  ##Ley de Hooke 
 🔑La ley de Hooke :Establece que es la Fuerza aplicada en el resorte, cuando esten es sistemas lineales, simplemente se mantienen al mantenimiento del material de referencia donde, hay una contante K y la elongación (x), aqui podemos visualizar la grafica del comportamiento donde se pueden ver los tres tipos de resortes en funcion de la Fuerza con respecto a su pocisión (x).
   
  <div align= "center">
- <img src= "">
+ <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/52649eb86dc511eea11b6fb12642b7bc4d0621f1/Build/grafica%20de%20resortes.jpg width="300">
  </div>
