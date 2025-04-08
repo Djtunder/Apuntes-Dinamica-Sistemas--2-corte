@@ -69,19 +69,53 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
   ## Sistemas de masa-resorte-Amortiguador.
  🔑  Definición: Muchas fuerzas que actuan sobre el sistema pueden considerarse una masa, un resorte y un amortiguador dispuestos en la manera que la fuerza y el desplazamiento del sistema se adopta un proceso que se considera la relacion de las fuerzas que actuan sobre ella. Para ello utilizamos un Diagrama de Cuerpo Libre, donde las fuerzas actuan de manera swimulatanea sobre un cuerpo. En el esquema podemos ver las fuerzas horizontales que van en opocision a la Fuerza de la salida del Dezplazamiento (x), que son la Fuerza del resorte (k) yla Fuerza del Amortiguador (bx).
   
- div align= "center">
+ <div align= "center">
  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/6d1e8ea872022d29af1ecc33b73791ce8eff1b72/Build/sistema%20masa-resorte-amortiguador.jpg" width="300">
  </div>
- # Ecuaciones
- y= la salida que yo quiero conocer 
- k2= pocisión
  
+ # Ecuaciones
+ 
+ $y = \textit{la salida que yo quiero conocer}$*
+
+ $k_2 = \textit{posición}$
+
+
+
  Primer Paso
  1) Diagrama de Cuerpo Libre
     
  <div align= "center">
- <img src= >
+ <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/686cc0411a2e49feca6c8c5efe521f75da5c97cf/Build/Imagen1.png" width="300" >
  </div>
+
+ ## Ley de Newton
+ 🔑En un sistema masa-resorte, el resorte genera una fuerza de restitución (de acuerdo con la ley de Hooke), que es proporcional al desplazamiento de la masa desde su posición de equilibrio.
+
+ La ecuación es
+ 
+ $$F= m*a$$
+ 
+ donde,
+ 
+ F= Fuerza aplicada al resorte
+ 
+ $m= \textit{masa}$
+ 
+ $a= \textit{aceleracion del objeto}$
+ 
+ Si usamos la ecuacion diferencial de la aceleracion que describe al sistema como:
+ 
+ $$m*a=−kx$$
+ 
+ donde
+$m= \textit{es la masa}$
+
+$a= \textit es la aceleración {derivada del movimiento}$
+
+$k = \textit{es la constante del resorte},$
+
+$x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
+
   
   
 
