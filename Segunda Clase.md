@@ -128,3 +128,6 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
  ##Ley de Hooke 
 🔑La ley de Hooke :Establece que es la Fuerza aplicada en el resorte, cuando esten es sistemas lineales, simplemente se mantienen al mantenimiento del material de referencia donde, hay una contante K y la elongación (x), aqui podemos visualizar la grafica del comportamiento donde se pueden ver los tres tipos de resortes en funcion de la Fuerza con respecto a su pocisión (x).
   
+ <div align= "center">
+ <img src= "">
+ </div>
