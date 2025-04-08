@@ -4,7 +4,7 @@
 # Curso: M6A
 
 # SISTEMAS MECANICOS
-## Introduccion
+## Introducción
 Para analizar los sistemas de control se necesitan emplear modelos matematicos que se basan en las leyes fisicas para gobernar el comportamiento de cualquier sistema.
 >>
  ¿Como empleamos los sistemas aplicando los Modelos Matematicos?
@@ -41,10 +41,21 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  >>
  # TIPOS DE FRICCION
   🔑 Fuerzas de Friccion: Es una reaccion de una fuerza externa, que depende de la velcidad.
+  < div align= "center">
+   < img src= "" >
+  </div>
+  >>
   🔑 Friccion estatica: Es una fuerza entre dos superficies que impide que estas se deslicen o resbalen una sobre la otra.
+    < div align= "center">
+   < img src= "" >
+  </div>
+  >>
   🔑 Friccion por Deslizamiento: Es la fuerza que se opone ante el movimiento deslizante de dos objetos de un objeto o una superficie. 
-
-  🔑 Friccion por Rodamiento: La friccion por Rodamiento implica en superficies no concordantes, en una fuerza resistiva que actua entre dos superficies en contacto cuando se desliza o intenta deslizarme una sobre otra.
+    < div align= "center">
+   < img src= "" >
+  </div>
+  >>
+    🔑 Friccion por Rodamiento: La friccion por Rodamiento implica en superficies no concordantes, en una fuerza resistiva que actua entre dos superficies en contacto cuando se desliza o intenta deslizarme una sobre otra.
    < div align= "center">
  < img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/2b8d06868bb9120c7def887ebf84d8ae16051504/friccion.jpg" width="300">
  </div>
