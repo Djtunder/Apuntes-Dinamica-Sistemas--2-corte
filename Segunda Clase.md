@@ -122,4 +122,9 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
  <div align= "center">
  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/73ac419985aa61c9d8fd90870253d18a1c559a97/Build/null80.png" width="300">
  </div>
- 
+ Ecuacion 
+ $$Ft= K1*Vm$$
+
+ ##Ley de Hooke 
+🔑La ley de Hooke :Establece que es la Fuerza aplicada en el resorte, cuando esten es sistemas lineales, simplemente se mantienen al mantenimiento del material de referencia donde, hay una contante K y la elongación (x), aqui podemos visualizar la grafica del comportamiento donde se pueden ver los tres tipos de resortes en funcion de la Fuerza con respecto a su pocisión (x).
+  
