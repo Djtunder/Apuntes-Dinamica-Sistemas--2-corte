@@ -67,10 +67,19 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  </div>
   
   ## Sistemas de masa-resorte-Amortiguador.
-  Definición: 
- <div align= "center">
+ 🔑  Definición: Muchas fuerzas que actuan sobre el sistema pueden considerarse una masa, un resorte y un amortiguador dispuestos en la manera que la fuerza y el desplazamiento del sistema se adopta un proceso que se considera la relacion de las fuerzas que actuan sobre ella. Para ello utilizamos un Diagrama de Cuerpo Libre, donde las fuerzas actuan de manera swimulatanea sobre un cuerpo. En el esquema podemos ver las fuerzas horizontales que van en opocision a la Fuerza de la salida del Dezplazamiento (x), que son la Fuerza del resorte (k) yla Fuerza del Amortiguador (bx).
+  
+  <div align= "center">
  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/6d1e8ea872022d29af1ecc33b73791ce8eff1b72/Build/sistema%20masa-resorte-amortiguador.jpg" width="300">
  </div>
+ # Ecuaciones
+ y= la salida que yo quiero conocer 
+ k2= pocisión
+ 
+ Primer Paso
+ 1) Diagrama de Cuerpo Libre
+    
+    
   
   
 
