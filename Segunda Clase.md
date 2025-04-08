@@ -50,13 +50,13 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
   🔑 Fricción estatica: Es una fuerza entre dos superficies que impide que estas se deslicen o resbalen una sobre la otra.
   
    <div align= "center">
-   <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/e8c8e17128bcdf8461d2b147eda7099e554aa3fd/Build/friccion%20estatica.png" width="300" >
+   <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/e8c8e17128bcdf8461d2b147eda7099e554aa3fd/Build/friccion%20estatica.png" width="300">
    </div>
   
   🔑 Fricción por Deslizamiento: Es la fuerza que se opone ante el movimiento deslizante de dos objetos de un objeto o una superficie. 
   
    <div align= "center">
-   <img src= "" >
+   <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/de9c67b919655f1ab36918d1f77efa89a3718c5a/Build/friccion%20por%20deslizamiento.png" width="300">
    </div>
   
    🔑 Fricción por Rodamiento: La friccion por Rodamiento implica en superficies no concordantes, es una fuerza resistiva que actua entre dos superficies en contacto cuando se desliza 
