@@ -149,7 +149,7 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
  <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/97d5de16eb03fefe3a42a9d1db1b4152bb00a596/Build/DCL2.png" width="300">
  </div>
 
-  $$𝑈+𝐹𝑟−𝐹𝑔=∑〖𝐹=𝑚𝑎〗$$
+ $$𝑈+𝐹𝑟−𝐹𝑔=∑〖𝐹=𝑚𝑎〗$$
 $$𝑚𝑔+𝑢(𝑡)−𝑘2𝑦(𝑡)−𝑘1𝑦^′ (𝑡)=𝑚𝑦¨(𝑡)$$
 $$𝑢+𝐹𝑤−𝐹𝑟−𝐹𝐹=𝑚∗𝑎$$
 $$−𝑢−𝐹𝑤+𝐹𝑟+𝐹𝐹=−𝑚∗𝑎$$ 
@@ -162,7 +162,15 @@ $$k\delta = mg$$
 
 Y si se considera la sustitución:
 
-𝑦 = 𝑥 + 𝛿 El término correspondiente a la fuerza de gravedad desaparece haz lo mismo
+𝑦 = 𝑥 + 𝛿
+
+El término correspondiente a la fuerza de gravedad desaparece haz lo mismo.
+
+<div align="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/745cce1d35c71fc3363432c7ad914ad9b0498581/Build/ejercicio3.png" width="300">
+</div>
+
+Ahora, vamos aplicarlo a un ejercicio donde se aplicamos un sistema de masa resorte de suspension 
 
 
 
