@@ -144,5 +144,9 @@ Hallar la ecuacion Diferencial del sistema masa resorte- amortiguador
 1) Paso
    
    Dibujar el Diagrama de Cuerpo Libre
+   
+ <div align= "center">  
+ <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/97d5de16eb03fefe3a42a9d1db1b4152bb00a596/Build/DCL2.png" width="300">
+ </div>
 
    
