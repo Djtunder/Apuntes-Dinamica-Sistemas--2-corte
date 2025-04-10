@@ -135,7 +135,7 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
  </div>
 
 4. ## EJERCICIOS
-Hallar la ecuacion Diferencial del sistema masa resorte- amortiguador
+4.1 Hallar la ecuacion Diferencial del sistema masa resorte- amortiguador
   
  <div align= "center">
   <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/47242b2460dfb97629aa9edc934af9b2eb469182/Build/Captura%20de%20pantalla%202025-04-09%20210219.jpg" width="300">
@@ -149,4 +149,20 @@ Hallar la ecuacion Diferencial del sistema masa resorte- amortiguador
  <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/97d5de16eb03fefe3a42a9d1db1b4152bb00a596/Build/DCL2.png" width="300">
  </div>
 
-   
+  $$𝑈+𝐹𝑟−𝐹𝑔=∑〖𝐹=𝑚𝑎〗$$
+$$𝑚𝑔+𝑢(𝑡)−𝑘2𝑦(𝑡)−𝑘1𝑦^′ (𝑡)=𝑚𝑦¨(𝑡)$$
+$$𝑢+𝐹𝑤−𝐹𝑟−𝐹𝐹=𝑚∗𝑎$$
+$$−𝑢−𝐹𝑤+𝐹𝑟+𝐹𝐹=−𝑚∗𝑎$$ 
+# Solucion: Modelo Matematico del sistema.
+
+4.2 El siguiente ejercio muestra un sistema donde no se tiene en cuenta el efecto de la fuerza de gravedad, si se considera el desplazamiento desde la pocision de equilibrio
+puesto que en este caso:
+
+$$k\delta = mg$$
+
+Y si se considera la sustitución:
+
+𝑦 = 𝑥 + 𝛿 El término correspondiente a la fuerza de gravedad desaparece haz lo mismo
+
+
+
