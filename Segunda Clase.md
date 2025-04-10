@@ -134,11 +134,11 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/52649eb86dc511eea11b6fb12642b7bc4d0621f1/Build/grafica%20de%20resortes.jpg" width="300">
  </div>
 
-4. Ejemplos
+4. ## EJERCICIOS
 Hallar la ecuacion Diferencial del sistema masa resorte- amortiguador
   
  <div align= "center">
- <img src= >
+  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/47242b2460dfb97629aa9edc934af9b2eb469182/Build/Captura%20de%20pantalla%202025-04-09%20210219.jpg" width="300">
  </div>
 
 1) Paso
