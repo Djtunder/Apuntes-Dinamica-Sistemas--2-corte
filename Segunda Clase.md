@@ -136,7 +136,13 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
 
 4. Ejemplos
 Hallar la ecuacion Diferencial del sistema masa resorte- amortiguador
+  
+ <div align= "center">
+ <img src= >
+ </div>
+
 1) Paso
+   
    Dibujar el Diagrama de Cuerpo Libre
 
    
