@@ -270,9 +270,43 @@ Halle la ecuación modelo del sistema Masa Mecanico complejo.
 # Diagrama de Cuerpo Libre 2
 
 <div algin="center">
-<img src= "<div algin="center">
-<img src= "" width="300">
+<img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/8c076506d836f72133fdf5539fbbc87a33393c0c/Build/diagrma%20de%20cuerpo%20libre%202.jpg" width="300">
 </div>
+
+## Ecuaciones 
+FR1 y FR2, tienen la misma fuerza
+
+$$𝑢 − 𝐹𝑅1 − 𝐹𝑅2 − 𝐹𝐹 = 𝑚1 ∗ 𝑎𝑚1$$
+
+𝐿𝑎 𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑖𝑎 𝑑𝑒 𝑒𝑙𝑜𝑛𝑔𝑎𝑐𝑖ó𝑛 𝑑𝑒𝑙 𝑟𝑒𝑠𝑜𝑟𝑡𝑒 2 𝑑𝑒𝑝𝑒𝑛𝑑𝑒 𝑑𝑒𝑙 𝑚𝑜𝑣𝑖𝑚𝑖𝑒𝑡𝑜 𝑑𝑒 𝑎𝑚𝑏𝑎𝑠 𝑚𝑎𝑠𝑎𝑠 𝐿𝑎 𝑣𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑 𝑑𝑒𝑙 𝑒𝑚𝑏𝑜𝑙𝑜 𝑑𝑒𝑙 𝑎𝑚𝑜𝑟𝑡𝑖𝑔𝑢𝑎𝑑𝑜𝑟 𝑑𝑒𝑙 𝑟𝑒𝑠𝑜𝑟𝑡𝑒 2 𝑑𝑒𝑝𝑒𝑛𝑑𝑒 𝑑𝑒𝑙 𝑚𝑜𝑣𝑖𝑚𝑖𝑒𝑡𝑜 𝑑𝑒 𝑎𝑚𝑏𝑎𝑠 𝑚𝑎𝑠𝑎s.
+
+$$𝐹𝑅2 + 𝐹𝐹 − 𝐹𝑅3 = 𝑚2 ∗ 𝑎𝑚2$$
+Para la masa 1
+
+$$
+m_1 \ddot{x}_1 = -k_1 x_1 - c_1 \dot{x}_1 + k_2 (x_2 - x_1) + c_2 (\dot{x}_2 - \dot{x}_1)
+$$
+
+$$
+m_2 \ddot{x}_2 = -k_2 (x_2 - x_1) - c_2 (\dot{x}_2 - \dot{x}_1) + k_3 (x_3 - x_2) + c_3 (\dot{x}_3 - \dot{x}_2)
+$$
+
+$$
+m_3 \ddot{x}_3 = -k_3 (x_3 - x_2) - c_3 (\dot{x}_3 - \dot{x}_2) + k_4 (x_4 - x_3) + c_4 (\dot{x}_4 - \dot{x}_3)
+$$
+
+$$
+m_4 \ddot{x}_4 = -k_4 (x_4 - x_3) - c_4 (\dot{x}_4 - \dot{x}_3) + k_5 (x_5 - x_4) + c_5 (\dot{x}_5 - \dot{x}_4)
+$$
+
+$$
+m_5 \ddot{x}_5 = -k_5 (x_5 - x_4) - c_5 (\dot{x}_5 - \dot{x}_4)
+$$
+
+
+
+
+
 
 
 
