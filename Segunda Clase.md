@@ -347,3 +347,4 @@ En el ejercicio de la masa m1, podemos ver que está atado a un resorte k1  , a 
 
 
 
+
