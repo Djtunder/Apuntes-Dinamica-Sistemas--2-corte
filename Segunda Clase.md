@@ -303,11 +303,34 @@ $$k_2 \left( x_1(t) - x_2(t) \right) + b \frac{d(x_1(t) - x_2(t))}{dt} - k_3 x_2
 La Figura 1 muestra un sistema masa-resorte-amortiguador. La salida es el desplazamiento x(t) del sistema, mientras que la entrada es la fuerza u(t) que se ejerce sobre la masa m. Hallar el modelo matematico de dicho sistema.
 
 <div align="center">
-<img src="">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/eb1c146508ff3e19a745c1977c6e2b9a078d6fc1/null-12.png" width="300">
 </div>
 
+# SOlUCIÓN
 
+Sabemos que la sumatoria de fuerzas:
+    
+  $$\[ \sum F = m \cdot a \]$$
+    
+  $$ \[a = \frac{F}{m}, \quad F = m \cdot a\]$$
+    
+ $$ \[ a = \frac{F_R}{m}, \quad F_R = m \cdot a \]$$
 
+  $$ \[ F_R = k z \cdot y(t) \]$$
+
+  $$\[ F_F = b \cdot \frac{dy(t)}{dt} \]$$
+    
+   $$\[ u(t) - k z \cdot y(t) - b \cdot \frac{dy(t)}{dt} = m \cdot \frac{d^2 y(t)}{dt^2} \]$$
+    
+   {Ecuación Diferencial:}
+    
+  Derivamos respecto al tiempo:
+    
+   $$\[ k \left( \frac{du(t)}{dt} - \frac{dy(t)}{dt} \right) - k z \cdot \frac{dy(t)}{dt} - b \cdot \frac{d^2 y(t)}{dt^2} \]$$
+    
+  $$\[ku - ky \cdot \frac{dy(t)}{dt} = m \cdot \frac{d^2 y(t)}{dt^2}\]$$
+
+ $$k \left( y - u \right) - k_i \frac{d y}{dt} = m \frac{d^2 u}{dt^2} + ky$$
 
 
 
