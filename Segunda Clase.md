@@ -332,6 +332,10 @@ Sabemos que la sumatoria de fuerzas:
 
  $$k \left( y - u \right) - k_i \frac{d y}{dt} = m \frac{d^2 u}{dt^2} + ky$$
 
+En el ejercicio de la masa m1, podemos ver que está atado a un resorte k1  , a su vez con un amortiguador 𝑏1 con una salida x1, para analizar este ejercicio no tenemos en cuenta la fuerza de friccion contra el suelo, en este caso podemos ver que el resorte k2, esta sujeto a un bloque m1 y el bloque m2, las masas se desplazan libremente y noy hay ningun tipo de fricción.
+
+
+
 
 
 
