@@ -250,9 +250,10 @@ $$300x¨2+22500x2-22500x1=0300 \ddot{x}_2 + 22500 x_2 - 22500 x_1 = 0300x¨2+225
 ¿Cual es la Aplicación del sistemas masa.resorte de carros vericales en Ingenieria?
 Este tipo de modelo es útil para analizar vibraciones en estructuras, sistemas de suspensión de vehículos, o en el diseño de amortiguadores para reducir las vibraciones no deseadas.
 
-##Ejercicio de Aplicación visto en clase
+## Ejercicio de Aplicación visto en clase
 
 Halle la ecuación modelo del sistema Masa Mecanico complejo.
+
 
 
 
