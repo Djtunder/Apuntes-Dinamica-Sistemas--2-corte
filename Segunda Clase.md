@@ -176,6 +176,75 @@ $$𝑚𝑔+𝑢(𝑡)−𝑘2𝑦(𝑡)−𝑘1𝑦^′ (𝑡)=𝑚𝑦¨(𝑡)$
 $$𝑢+𝐹𝑤−𝐹𝑟−𝐹𝐹=𝑚∗𝑎$$
 $$−𝑢−𝐹𝑤+𝐹𝑟+𝐹𝐹=−𝑚∗𝑎$$
 
-#Segundo Ejercicio 
+# Vibracion Libre
+🔑Definición: 	Aún aplicando entrada durante un intervalo de tiempo definido es posible provocar un comportamiento oscilatorio en la variable de salida del sistema
+•	Por ejemplo, en el caso de la suspensión si se aplica una fuerza constante durante un intervalo corto de tiempo y se retira dicho estímulo el sistema tiende a vibrar
+•	Este movimiento periódico se conoce como vibración libre
+Ejemplo
+>>
+•	Simular la solución de este sistema sabiendo:
+𝑁
+•	$$𝑘=22500$$
+𝑚
+𝑁𝑠
+•	$$𝑏 = 2000$$
+𝑚
+•	$$𝑀 = 300 𝐾𝑔$$
+•	Si se suben al carro 2 personas que en promedio pesan 80Kg
+>>
+# Solución
+1. Obtenemos los datos del sistema
+   
+$$
+k_1 = k_2 = 22500 \, \frac{N}{m}
+$$
+
+$$
+b = 2000 \, \frac{Ns}{m}
+$$
+
+$$
+m_1 = 300 + 2 \times 80 = 460 \, kg
+$$
+
+$$
+m_2 = 300 \, kg
+$$
+⚙️ Ecuaciones del sistema
+$$\{Primera}\ \{ecuación (masa m1m_ 1m1)}:$$
+
+$$m1x¨1=-k1x1-bx˙1+k2(x2-x1)m_1 \ddot{x}_1 = -k_1 x_1 - b \dot{x}_1 + k_2(x_2 - x_1)m1x¨1=-k1x1-bx˙1+k2(x2-x1)$$
+
+Sustituyendo\ valores:
+
+$$460x¨1=-22500x1-2000x˙1+22500(x2-x1)460 \ddot{x}_1 = -22500 x_1 - 2000 \dot{x}_1 + 22500(x_2 - x_1)460x¨1=-22500x1-2000x˙1+22500(x2-x1)$$
+
+Simplificada:
+
+$$460x¨1+2000x˙1+45000x1-22500x2=0460 \ddot{x}_1 + 2000 \dot{x}_1 + 45000 x_1 - 22500 x_2 = 0460x¨1+2000x˙1+45000x1-22500x2=0$$
+
+⚙️ Ecuaciones del sistema
+
+$$\{Segunda}\ \{ecuación (masa m2m_2m2)}:$$
+
+$$m2x¨2=-k2(x2-x1)m_2 \ddot{x}_2 = -k_2(x_2 - x_1)m2x¨2=-k2(x2-x1)$$
+
+Sustituyendo\ valores:
+
+$$300x¨2=-22500(x2-x1)300 \ddot{x}_2 = -22500(x_2 - x_1)300x¨2=-22500(x2-x1)$$
+
+Simplificada:
+
+$$300x¨2+22500x2-22500x1=0300 \ddot{x}_2 + 22500 x_2 - 22500 x_1 = 0300x¨2+22500x2-22500x1=0$$
+
+
+
+
+
+
+
+
+
+
 
 
