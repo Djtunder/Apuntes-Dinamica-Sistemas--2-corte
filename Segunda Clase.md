@@ -338,7 +338,74 @@ En el ejercicio de la masa m1, podemos ver que está atado a un resorte k1  , a 
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/69137bb0a15f84995e9973b9cf7f309d36f0bfcc/Build/masa-15.jpg" width="300">
 </div>
 
+1. Dibujamos los dos diagramaos de cuerpo libres para tomarlos de referencia.
 
+<div align="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/e026936c84df76441ffbd0ec95bdf453f22206a3/Build/ejercicio%202%20dcl%2015.png" width="300">
+</div>
+
+2. Planteamos las ecuaciones y obtenemos el modelo matematico del modelo
+
+   $$Para m1$$
+
+   $$u = -F_R + F_{m1} + F_{k2} = m_1 a_{m1}$$
+
+   $$u = -k_1 x_1(t) - b_1 \frac{dx_1(t)}{dt} + m_1 \frac{d^2 x_1(t)}{dt^2} + k_2 (x_1 - x_2)(t)$$
+
+   $$Para m2$$
+   $$u - F_{k2} = F_{m2}$$
+   
+   $$k_2(x_1 - x_2) = m_2 \frac{d^2 x_2}{dt^2}$$
+
+   
+**Fuerzas involucradas:**
+
+$$\text{Fuerza del resorte } (k_1)$$
+
+    
+ $$F_R = -k_1 x_1(t)$$
+
+
+- Fuerza del amortiguador \( b_1 \):
+   
+  $$\[F_{m1} = -b_1 \frac{dx_1(t)}{dt}\]$$
+
+- Fuerza del resorte entre masas \( k_2 \):
+  
+  $$[F{k2} = k_2 \left( x_1(t) - x_2(t) \right)\]$$
+
+**Sustituyendo en la ecuación principal:**
+
+$$[u(t) - (-k_1 x_1(t)) + (-b_1 \dot{x}_1(t)) + k_2 (x_1(t) - x_2(t)) = m_1 \ddot{x}_1(t)\]$$
+
+**Ecuación final:**
+
+$$\[u(t) = m_1 \ddot{x}_1(t) + b_1 \dot{x}_1(t) + k_1 x_1(t) + k_2 \left( x_1(t) - x_2(t) \right)\]$$
+
+
+### 📌 Diagrama de Cuerpo Libre 2 (Masa \( m_2 \))
+
+**Única fuerza aplicada:**
+
+$$F(k2) = k2 \( x1(t) - x2(t))$$
+
+**Segunda Ley de Newton:**
+
+$$F(k_2) = m_2 \ddot{x}_2(t)$$
+
+
+**Ecuación final:**
+
+**Ecuación final:**
+
+$$\[k_2 \left( x_1(t) - x_2(t) \right) = m_2 \ddot{x}_2(t)\]$$
+
+
+   
+
+
+
+   
 
 
 
