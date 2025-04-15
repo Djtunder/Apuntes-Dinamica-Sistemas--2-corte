@@ -269,6 +269,10 @@ Halle la ecuación modelo del sistema Masa Mecanico complejo.
 
 # Diagrama de Cuerpo Libre 2
 
+<div algin="center">
+<img src= "<div algin="center">
+<img src= "" width="300">
+</div>
 
 
 
