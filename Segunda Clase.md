@@ -149,11 +149,10 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
  <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/97d5de16eb03fefe3a42a9d1db1b4152bb00a596/Build/DCL2.png" width="300">
  </div>
 
- $$𝑈+𝐹𝑟−𝐹𝑔=∑〖𝐹=𝑚𝑎〗$$
-$$𝑚𝑔+𝑢(𝑡)−𝑘2𝑦(𝑡)−𝑘1𝑦^′ (𝑡)=𝑚𝑦¨(𝑡)$$
-$$𝑢+𝐹𝑤−𝐹𝑟−𝐹𝐹=𝑚∗𝑎$$
-$$−𝑢−𝐹𝑤+𝐹𝑟+𝐹𝐹=−𝑚∗𝑎$$ 
-# Solucion: Modelo Matematico del sistema.
+$$fk(t)= k(X1(t)-x(t))$$
+$$Fb(t)= b(x1)-x'(t))$$
+$$k(x_1(t) - x(t)) + b(\dot{x}_1(t) - \dot{x}(t)) = m\ddot{x}(t)$$
+
 
 4.2 El siguiente ejercio muestra un sistema donde no se tiene en cuenta el efecto de la fuerza de gravedad, si se considera el desplazamiento desde la pocision de equilibrio
 puesto que en este caso:
@@ -172,5 +171,11 @@ El término correspondiente a la fuerza de gravedad desaparece haz lo mismo.
 
 Ahora, vamos aplicarlo a un ejercicio donde se aplicamos un sistema de masa resorte de suspension 
 
+ $$𝑈+𝐹𝑟−𝐹𝑔=∑〖𝐹=𝑚𝑎〗$$
+$$𝑚𝑔+𝑢(𝑡)−𝑘2𝑦(𝑡)−𝑘1𝑦^′ (𝑡)=𝑚𝑦¨(𝑡)$$
+$$𝑢+𝐹𝑤−𝐹𝑟−𝐹𝐹=𝑚∗𝑎$$
+$$−𝑢−𝐹𝑤+𝐹𝑟+𝐹𝐹=−𝑚∗𝑎$$
+
+#Segundo Ejercicio 
 
 
