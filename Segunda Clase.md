@@ -262,12 +262,10 @@ Halle la ecuación modelo del sistema Masa Mecanico complejo.
 
 1) Dibjamos los diagramas de cuerpo libre del carro 1, que seria la masa 1 y el carro 2 que seria la masa 2.
 
-   
-
-
 <div algin="center">
-<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/b657f57fd992c8107319db169d33b07430edf28c/Build/sistema%201.jpg" width="300">
+<img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/d952a403c464d67aab0070badc1b8c1b8b610dbe/Build/diagrama%20cuerpo%20libre%201.jpg" width="300">
 </div>
+
 
 
 
