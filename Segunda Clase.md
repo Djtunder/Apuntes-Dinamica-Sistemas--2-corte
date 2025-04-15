@@ -180,6 +180,11 @@ $$−𝑢−𝐹𝑤+𝐹𝑟+𝐹𝐹=−𝑚∗𝑎$$
 🔑Definición: 	Aún aplicando entrada durante un intervalo de tiempo definido es posible provocar un comportamiento oscilatorio en la variable de salida del sistema
 •	Por ejemplo, en el caso de la suspensión si se aplica una fuerza constante durante un intervalo corto de tiempo y se retira dicho estímulo el sistema tiende a vibrar
 •	Este movimiento periódico se conoce como vibración libre
+
+<p align="center">
+  <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/13825c612a482899d14c48c81b08caea37f0ed05/Build/ejericio%20resorte%20masa-amortiguador.jpg?raw=true" width="400"/>
+</p>
+
 Ejemplo
 >>
 •	Simular la solución de este sistema sabiendo:
@@ -236,6 +241,19 @@ $$300x¨2=-22500(x2-x1)300 \ddot{x}_2 = -22500(x_2 - x_1)300x¨2=-22500(x2-x1)$$
 Simplificada:
 
 $$300x¨2+22500x2-22500x1=0300 \ddot{x}_2 + 22500 x_2 - 22500 x_1 = 0300x¨2+22500x2-22500x1=0$$
+
+# EJERCICIO 2
+# SISTEMA MASA-RESORTE COMPLEJO
+
+🔑Definición: En resumen, el análisis de un sistema masa-resorte complejo de carros horizontales involucra resolver ecuaciones diferenciales que modelan el movimiento de la masa(s), teniendo en cuenta las fuerzas elásticas, de fricción y las posibles fuerzas externas. Para sistemas más complejos, se requieren métodos de simulación computacional.
+
+¿Cual es la Aplicación del sistemas masa.resorte de carros vericales en Ingenieria?
+Este tipo de modelo es útil para analizar vibraciones en estructuras, sistemas de suspensión de vehículos, o en el diseño de amortiguadores para reducir las vibraciones no deseadas.
+
+##Ejercicio de Aplicación visto en clase
+
+Halle la ecuación modelo del sistema Masa Mecanico complejo.
+
 
 
 
