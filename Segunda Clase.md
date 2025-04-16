@@ -400,6 +400,15 @@ $$F(k_2) = m_2 \ddot{x}_2(t)$$
 
 $$\[k_2 \left( x_1(t) - x_2(t) \right) = m_2 \ddot{x}_2(t)\]$$
 
+## CONCLUSIONES
+
+El análisis de sistemas masa-resorte en ingeniería mecánica es clave para comprender cómo se transmiten y disipan las fuerzas dentro de un sistema. Este modelo permite simular el comportamiento vibratorio de componentes como suspensiones, estructuras o mecanismos articulados, facilitando su diseño seguro, eficiente y con mayor vida útil frente a cargas dinámicas.
+
+La formulación matemática de un sistema masa-resorte, mediante ecuaciones diferenciales, proporciona una base sólida para el diseño de sistemas de control en ingeniería. Esto permite predecir el comportamiento del sistema bajo diferentes condiciones, optimizar su desempeño y aplicar técnicas modernas como el análisis en el dominio de Laplace o el uso de simulaciones computacionales.
+
+## BIBLIOGRAFIA
+https://dademuchconnection.wordpress.com/2017/07/18/dinamica-de-un-sistema-masa-resorte-amortiguador/
+
 
    
 
