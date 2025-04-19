@@ -146,3 +146,5 @@ $$ P = kx \dot{x} = \dot{U} $$
 # Potencia almacenda en los Amortiguadores
 Con un Amortiguador Giratorio un disco gira en un fluido resistivo T, es proporcional a la velocidad angular w y dado que la velocidad angular es la tasa de cambio del desplazamiento angular, es decir:
 
+<div align="center">
+< img src="
