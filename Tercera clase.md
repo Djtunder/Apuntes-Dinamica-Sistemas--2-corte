@@ -1,5 +1,5 @@
 ## Apuntes segundo corte
-# Clase 2 : Sistemas Rotacionales aplicados al Trabajo, Energia y Potencia.
+# Clase 3 : Sistemas Rotacionales aplicados al Trabajo, Energia y Potencia.
 # Nombre: Kevin Nicolas Perez Tobar
 # Curso: M6A
 
@@ -88,17 +88,33 @@ $$
 🔑 Energia: Capacidad para realizar un trabajo.
 Se divide en dos tipos de enrgtia, las cuales son: Energia Cinetica y Energia Potencial.
 
+🔑 Energia Cinetica: La energía cinética es la energía que posee un objeto debido a su movimiento. Se calcula utilizando la fórmula:
+
+$$E = \frac{1}{2} \times m \times v^2$$
+
 🔑 Energia Potencial: En los sistemas mecancanicos le energia potencial cambia de acuerdo a la pocision con respecto a la referencia. 
 
-Cálculo de la energía
-$$
-E = F \times \Delta x
-$$
+$$U = \int_0^h mg \, dx = mgh$$
 
- Fuerza aplicada
-$$
-F = m \times a
-$$
+Cálculo de la energía
+
+$$E = F \times \Delta x$$
+
+# Importante
+Solamente los elementos de inercia pueden almacenar energía cinética
+Un cambio en la energía cinética es el trabajo realizado sobre una masa por la aplicación de una fuerza que 
+# Formulas
+
+$$T = \frac{1}{2} mv^2$$
+$$T = \frac{1}{2} J \dot{\theta}^2$$
+
+# Demostración de la Energia Cinetica
+
+$$\Delta T = \Delta W = \int_{x_1}^{x_2} F \, dx = \int_{t_1}^{t_2} F \frac{dx}{dt} dt$$
+$$ = \int_{t_1}^{t_2} Fv \, dt = \int_{t_1}^{t_2} m v v \, dt = \int_{v_1}^{v_2} m v \, dv$$
+$$ = \frac{1}{2} m v_2^2 - \frac{1}{2} m v_1^2$$
+$$\Delta T = \frac{1}{2} J \dot{\theta}_2^2 - \frac{1}{2} J \dot{\theta}_1^2$$
+
 
 
 
