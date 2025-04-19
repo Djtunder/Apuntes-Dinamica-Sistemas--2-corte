@@ -40,6 +40,9 @@ Momento de Inercia
 
 $$T = J \cdot \frac{d^2\varphi}{dt^2} \quad \rightarrow \quad J \text{ es el momento de inercia}$$
 
+<div align="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/0908a0acdccdc2281b6dda5a65f1886a6c3df549/Build/Captura%20de%20pantalla%202025-04-19%20065029.jpg" width="300">
+</div>
 
 
 
