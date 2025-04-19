@@ -115,8 +115,25 @@ $$ = \int_{t_1}^{t_2} Fv \, dt = \int_{t_1}^{t_2} m v v \, dt = \int_{v_1}^{v_2}
 $$ = \frac{1}{2} m v_2^2 - \frac{1}{2} m v_1^2$$
 $$\Delta T = \frac{1}{2} J \dot{\theta}_2^2 - \frac{1}{2} J \dot{\theta}_1^2$$
 
+🔑 Potencia: Es la realización del trabajo respecto al tiempo:
 
+$$ P = \frac{dW}{dt} $$
 
+$$ \text{Potencia media} = \frac{\text{Trabajo realizado}}{(t_2 - t_1) \, \text{segundos}} $$  
+
+# Energía potencial en un resorte
+🔑 Definición: Es el trabajo neto hecho sobre él por las fuerzas que actúan en sus extremos cuando es comprimido o estirado
+
+$$ U = \int_0^x F \, dx = \int_0^x kx \, dx = \frac{1}{2} kx^2 $$
+
+De su forma general
+
+$$ \Delta U = \int_{x_1}^{x_2} F \, dx = \int_{x_1}^{x_2} kx \, dx = \frac{1}{2} kx_2^2 - \frac{1}{2} kx_1^2 $$
+
+ # Potencia en el Amortiguador
+ El Resorte, el amortiguador y la masa son los bloque funcionales que representan los sistemas mecanicos donde las fuerzas y desplazamientos lineales que estan representados por fuerzas y desplazamientos. Hay que tener en cuenta que tanto los amortiguadores y los resortes se oponen al movimiento. Entonces esto se representa de la siguiente manera.
+
+ 
 
 
 
