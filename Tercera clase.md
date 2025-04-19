@@ -14,3 +14,34 @@ Exponiendo esta teoria, ya vista vamos a explicar su concepto, partiendo del mod
 # 3. Definiciones
 🔑 Sistemas Rotacionales: Los sistemas Rotacionales son un fenomeno mecanico, ya que estan relacionados con el concepto de Rotación. Estos modelos giran alrededor de un obejto y se aplican en robotica, control y mecanica.
 
+<div align="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/98d69492801bb8a1894cc1039df89f9a485901db/Build/Figura-33-Sistema-rotacional-masa-resorte-amortiguador.png" width= "300">
+</div>
+
+## 3.1 Leyes Comparables al movimiento Lineal 
+# Segunda ley de Newton para la rotación
+Si, sobre un cuerpo rígido actúa más de un torque en torno a un eje fijo, la suma de los torques es igual al momento de inercia por la aceleración angular:
+
+$$\sum_i \tau_i = I \alpha$$
+
+Angulo  de Torsión
+🔑 Definición:  es un parámetro que describe la deformación rotacional que experimenta un objeto debido a la aplicación de un par de torsión (o momento torsional).
+
+$$FR = k \cdot \varphi \quad \rightarrow \quad \varphi \text{ es ángulo de torsión}$$
+
+Velocidad Angular
+🔑 Definición:La velocidad angular es una magnitud física que describe el cambio de ángulo con respecto al tiempo, en el movimiento circular de un objeto.
+
+$$F_F = b \cdot \frac{d\varphi}{dt} \quad \rightarrow \quad \frac{d\varphi}{dt} \text{ es la velocidad angular}$$
+
+Momento de Inercia
+🔑 Definición:El momento de inercia es una propiedad física de los objetos que mide su resistencia a los cambios en su estado de rotación alrededor de un eje. 
+
+
+$$T = J \cdot \frac{d^2\varphi}{dt^2} \quad \rightarrow \quad J \text{ es el momento de inercia}$$
+
+
+
+
+
+
