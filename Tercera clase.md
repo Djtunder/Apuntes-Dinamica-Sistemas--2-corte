@@ -147,4 +147,7 @@ $$ P = kx \dot{x} = \dot{U} $$
 Con un Amortiguador Giratorio un disco gira en un fluido resistivo T, es proporcional a la velocidad angular w y dado que la velocidad angular es la tasa de cambio del desplazamiento angular, es decir:
 
 <div align="center">
-< img src="
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/c06ccd0cb23da40ef50a0a685e2bc2fa28828cb9/Build/amortiguador%2019.jpg" width="300">
+</div>
+
+
