@@ -133,6 +133,9 @@ $$ \Delta U = \int_{x_1}^{x_2} F \, dx = \int_{x_1}^{x_2} kx \, dx = \frac{1}{2}
  # Potencia en el Amortiguador
  El Resorte, el amortiguador y la masa son los bloque funcionales que representan los sistemas mecanicos donde las fuerzas y desplazamientos lineales que estan representados por fuerzas y desplazamientos. Hay que tener en cuenta que tanto los amortiguadores y los resortes se oponen al movimiento. Entonces esto se representa de la siguiente manera.
 
+ <div align="center">
+ <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/a97c1323e79dc9bc381c4bdbb9c41176ce49c0ce/Build/potencia%20en%20amortiguador.png" width="300">
+ </div>
  
 
 
