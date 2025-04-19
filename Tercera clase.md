@@ -137,6 +137,12 @@ $$ \Delta U = \int_{x_1}^{x_2} F \, dx = \int_{x_1}^{x_2} kx \, dx = \frac{1}{2}
  <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/a97c1323e79dc9bc381c4bdbb9c41176ce49c0ce/Build/potencia%20en%20amortiguador.png" width="300">
  </div>
  
+$$ P = \frac{dW}{dt} = F \frac{dx}{dt} = F \dot{x} = kx \dot{x} $$
 
+Sabiendo que:
 
+$$ P = kx \dot{x} = \dot{U} $$
+
+# Potencia almacenda en los Amortiguadores
+Con un Amortiguador Giratorio un disco gira en un fluido resistivo T, es proporcional a la velocidad angular w y dado que la velocidad angular es la tasa de cambio del desplazamiento angular, es decir:
 
