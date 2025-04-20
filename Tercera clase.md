@@ -150,5 +150,45 @@ Con un Amortiguador Giratorio un disco gira en un fluido resistivo T, es proporc
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/c06ccd0cb23da40ef50a0a685e2bc2fa28828cb9/Build/amortiguador%2019.jpg" width="300">
 </div>
 
+# 4. Tablas
+
+| Momento de Inercia        | Ecuación descriptiva                                       | Energía de Potencia almacenada |
+|---------------------------|------------------------------------------------------------|--------------------------------|
+| **Energía Cinética**       | $$E = \frac{1}{2} \times m \times v^2$$                   | $$E = \frac{1}{2} \times J \times v^2$$ |
+| **Energía Potencial**     | $$E = mgh$$                                               | $$E = \frac{1}{2} \times k \times x^2$$ |
+| **Amortiguador Translacional** | $$F_{\text{amortiguador}} = -c \cdot v$$                 | $$P = c \times v^2$$          |
+| **Amortiguador Rotacional** | $$T_{\text{amortiguador}} = c \cdot \theta \cdot v$$      | $$P = c \times \omega^2$$     |
+
+# Sistemas Conservativos
+Los Sistemas conservativos es toda la energia resultante de la Energia Potencial y la Energia Cinetica. Que hace parte del sistema en el trabajo mecanico, y no disipa la energia.
+Se puede definir como:
+
+$$(T+U)= W$$
+
+$$T+U= constante$$
+
+# 5. Ejercicios
+
+1. Enunciado:
+
+Considere un sistema masa-resorte compuesto por una masa 𝑚conectada a un resorte de constante k como se muestra en la figura. El resorte está fijado a una pared y la masa 
+m puede moverse a lo largo de la dirección 𝑥. La energía cinética 𝑇 y la energía potencial 𝑈 del sistema están dadas por las siguientes expresiones.
+
+La energía cinética 
+𝑇
+T de la masa es:
+
+$$ T + U= frac{1}{2}\times k\times v^2 $$
+es la velocidad de la masa.
+
+La energía potencial 
+𝑈
+U almacenada en el resorte es:
+
+
+ 
+donde 
+𝑥
+x es la elongación o compresión del resorte con respecto a su posición de equilibrio.
 
 
