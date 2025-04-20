@@ -258,14 +258,16 @@ Donde:
 
 La energía potencial total es:
 
-$$
-U = mg(x_0 - x) + \frac{1}{2}k(\delta + x)^2
-$$
+$$U = mg(x_0 - x) + \frac{1}{2}k(\delta + x)^2$$
 
 Desarrollando:
 
-$$U &= mgx_0 - mgx + \frac{1}{2}k\delta^2 + k\delta x + \frac{1}{2}kx^2 \\
-  &= mgx_0 + \frac{1}{2}k\delta^2 - (mg - k\delta)x + \frac{1}{2}kx^2$$
+$$
+\begin{align*}
+U &= mgx_0 - mgx + \frac{1}{2}k\delta^2 + k\delta x + \frac{1}{2}kx^2 \\
+  &= mgx_0 + \frac{1}{2}k\delta^2 - (mg - k\delta)x + \frac{1}{2}kx^2
+\end{align*}
+$$
 
 ## Paso 3: Energía Cinética
 
