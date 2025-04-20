@@ -174,21 +174,60 @@ $$T+U= constante$$
 Considere un sistema masa-resorte compuesto por una masa 𝑚conectada a un resorte de constante k como se muestra en la figura. El resorte está fijado a una pared y la masa 
 m puede moverse a lo largo de la dirección 𝑥. La energía cinética 𝑇 y la energía potencial 𝑈 del sistema están dadas por las siguientes expresiones.
 
-La energía cinética 
-𝑇
+La energía cinética
 T de la masa es:
 
-$$ T + U= frac{1}{2}\times k\times v^2 $$
+$$T= \frac{1}{2}\times m \times v^2$$
+
 es la velocidad de la masa.
 
 La energía potencial 
-𝑈
-U almacenada en el resorte es:
+𝑈 almacenada en el resorte es:
 
+$$ U= \frac{1}{2}\times k\times x^2$$
 
- 
 donde 
 𝑥
 x es la elongación o compresión del resorte con respecto a su posición de equilibrio.
+
+2. Ahora sabemos que segun la ley de sistemas conservativos debemos sumar la energia potencial y la energia cinetica
+
+   $$W= (\frac{1}{2}\times m \times v^2)+ (\frac{1}{2}\times k\times x^2)$$
+
+ 3. Despues derivamos toda la energia total
+    
+Entonces tenemos:
+
+$$Derivando esta expresión con respecto al tiempo \( t \):
+
+$$\frac{d}{dt} (T + U) = \frac{d}{dt} \left( \frac{1}{2} m \dot{x}^2 + \frac{1}{2} k x^2 \right)$$
+
+Esto nos da:
+
+$$\frac{d}{dt} (T + U) = m \dot{x} \ddot{x} + k x \dot{x}$$
+
+### Paso 2: Factorización
+
+Al factorizar \( \dot{x} \), obtenemos:
+
+$$\frac{d}{dt} (T + U) = \dot{x} (m \ddot{x} + k x)$$
+
+ Paso 3: Ecuación de movimiento
+
+De acuerdo con el principio de conservación de energía o la ecuación de movimiento del sistema, sabemos que:
+
+$$\frac{d}{dt} (T + U) = 0$$
+
+Esto implica que:
+
+$$\dot{x} (m \ddot{x} + k x) = 0$$
+
+Ya que \( \dot{x} \) no puede ser cero en todo momento (excepto en puntos específicos donde la velocidad es cero), debemos tener:
+
+$$m \ddot{x} + k x = 0$$
+
+# Ejemplo 2
+
+   
 
 
