@@ -228,6 +228,84 @@ $$m \ddot{x} + k x = 0$$
 
 # Ejemplo 2
 
-   
+<div align="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/60f471af7e3ed7eeb7304d63b049fd9158a87bdc/Build/Imagen3.jpg" width="300">
+</div>
+
+Solucion
+
+# Análisis de la Energía en un Oscilador Armónico
+
+## Paso 1: Energía Potencial Inicial
+
+La energía potencial inicial del sistema es:
+
+$$
+U_0 = mgx_0 + \frac{1}{2}k\delta^2
+$$
+
+Donde:
+
+- \( m \): masa  
+- \( g \): gravedad  
+- \( x_0 \): posición inicial  
+- \( \delta \): elongación inicial del resorte  
+- \( k \): constante del resorte  
+
+---
+
+## Paso 2: Energía Potencial Total en Función de \( x \)
+
+La energía potencial total es:
+
+$$
+U = mg(x_0 - x) + \frac{1}{2}k(\delta + x)^2
+$$
+
+Desarrollando:
+
+$$U &= mgx_0 - mgx + \frac{1}{2}k\delta^2 + k\delta x + \frac{1}{2}kx^2 \\
+  &= mgx_0 + \frac{1}{2}k\delta^2 - (mg - k\delta)x + \frac{1}{2}kx^2$$
+
+## Paso 3: Energía Cinética
+
+La energía cinética está dada por:
+
+$$T = \frac{1}{2}m\dot{x}^2$$
+
+## Paso 4: Energía Total del Sistema
+
+La energía total es:
+
+$$T + U = \frac{1}{2}m\dot{x}^2 + U_0 + \frac{1}{2}kx^2 = \text{constante}$$
+
+Recordando que:
+
+$$U_0 = mgx_0 + \frac{1}{2}k\delta^2$$
+
+
+## Paso 5: Derivada de la Energía Total
+
+Derivando la energía total con respecto al tiempo:
+
+$$\frac{d}{dt}(T + U) = \frac{d}{dt} \left( \frac{1}{2}m\dot{x}^2 + \frac{1}{2}kx^2 \right)$$
+
+Aplicando la regla de la cadena:
+
+$$\frac{d}{dt}(T + U) = m\dot{x}\ddot{x} + kx\dot{x}$$
+
+Factorizando:
+
+$$(m\ddot{x} + kx)\dot{x} = 0$$
+
+## Paso 6: Ecuación de Movimiento
+
+Para que se conserve la energía, debe cumplirse:
+
+$$m\ddot{x} + kx = 0$$
+
+Esta es la ecuación del movimiento armónico simple.
+
+
 
 
