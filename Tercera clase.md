@@ -310,6 +310,10 @@ Esta es la ecuación del movimiento armónico simple.
 
 # Casos frecuentes
 
+<div align="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/53de396c6629f758b7847e4dbec54a348d60c87b/Build/Imagen1.png" width="300">
+</div>
+
 $$m \ddot{x} + \frac{2}{3} k x = 0$$
 
 $$J = \text{depende de la figura}$$
@@ -320,6 +324,9 @@ $$\frac{3}{4} m x^2 + \frac{1}{2} k x^2 = \text{constante}$$
 
 
 2. Trenes de Engranajes, Palancas y Bandas
+<div align="center">
+<img src=
+</div>
 
 $$r_1 N_1 = r_2 N_2 \quad \Rightarrow \quad \dot{\theta}_1 = \dot{\theta}_2$$
 
@@ -346,5 +353,7 @@ $$T = \frac{1}{2} m x^2 + \frac{1}{2} J \left( \frac{d x}{dt} \right)^2$$
 $$\text{Energía Potencial} \quad U = \frac{1}{2} k x^2$$
 
 $$J = \frac{1}{2} m R^2$$
+
+
 
 
