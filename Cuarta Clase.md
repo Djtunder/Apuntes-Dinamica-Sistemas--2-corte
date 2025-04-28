@@ -29,10 +29,29 @@
       
 ## 4. Definiciones
 
- 🔑Circuito: Un circuito es un conjunto de elementos eléctricos conectados entre sí de manera que permiten el paso de corriente eléctrica. Un circuito básico generalmente está compuesto por fuentes de energía 
+ 4.1🔑Circuito: Un circuito es un conjunto de elementos eléctricos conectados entre sí de manera que permiten el paso de corriente eléctrica. Un circuito básico generalmente está compuesto por fuentes de energía 
 
   <div align="center">
-   <img src="
+ <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/846e542671e5164aa2ed4265a697dee87c86276c/Build/7bf2a85a2432376373d66e4a86fe015fdb5f5570.svg" width="300">
+  </div>
+Figura 4.1 Imagen de un Circuito RLC
+
+ 4.1🔑Circuito RLC en Serie: En un circuito RLC en serie, los tres componentes (resistor, inductor y condensador) están conectados en una única ruta, formando un único lazo de corriente. Es decir, la misma corriente pasa a través de los tres componentes.
+
+ 4.2 🔑Circuito en Paralelo: En un circuito RLC en paralelo, los tres componentes están conectados de forma que cada uno tiene un camino independiente para la corriente. Es decir, la corriente se divide entre el resistor, el inductor y el condensador, pero la tensión es la misma para todos los componentes.
+
+ 4.3 🔑 Malla: Es el camino cerrado que forman dos o más ramas de un circuito. En una malla la suma de todas las tensiones, cada una con su signo correspondiente, es igual a 0 (Ley de Kirchoff de las mallas).
+ 
+ 4.4 🔑 Nodo:un nodo es cualquier punto donde se conectan dos o más componentes o elementos del circuito, como resistencias, fuentes de voltaje, o conductores. Básicamente, un nodo es un punto de unión o intersección dentro de un circuito eléctrico.
+
+ 5. TABLAS
+
+    
+ 
+
+
+  
+   
    
    
    
