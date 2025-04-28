@@ -136,7 +136,8 @@ $$ \Delta U = \int_{x_1}^{x_2} F \, dx = \int_{x_1}^{x_2} kx \, dx = \frac{1}{2}
  <div align="center">
  <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/a97c1323e79dc9bc381c4bdbb9c41176ce49c0ce/Build/potencia%20en%20amortiguador.png" width="300">
  </div>
- 
+
+ Fig 3. Representacion de Potencia en el amortiguador 
 $$ P = \frac{dW}{dt} = F \frac{dx}{dt} = F \dot{x} = kx \dot{x} $$
 
 Sabiendo que:
@@ -159,6 +160,7 @@ Con un Amortiguador Giratorio un disco gira en un fluido resistivo T, es proporc
 | **Amortiguador Translacional** | $$F_{\text{amortiguador}} = -c \cdot v$$                 | $$P = c \times v^2$$          |
 | **Amortiguador Rotacional** | $$T_{\text{amortiguador}} = c \cdot \theta \cdot v$$      | $$P = c \times \omega^2$$     |
 
+Figura 4.1 Tabla de Formulas- W.Bolton
 # Sistemas Conservativos
 Los Sistemas conservativos es toda la energia resultante de la Energia Potencial y la Energia Cinetica. Que hace parte del sistema en el trabajo mecanico, y no disipa la energia.
 Se puede definir como:
@@ -439,26 +441,48 @@ $$\Delta(L) = \frac{d(\theta(t))}{dt}$$
 
 Solucion
 
+
+Consideramos las siguientes ecuaciones para el sistema motor-carga:
+
+\subsection{Ecuaciones Generales}
 \begin{align*}
-\sum M &= J \cdot \ddot{\theta} \\
-\theta_1 &= \frac{\theta_m}{n} \\
-w_1 &= \frac{w_m}{n} \quad (w = \frac{d\theta}{dt}) 
+    \sum M &= J \cdot \ddot{\theta} \\
+    \theta_1 &= \frac{\theta_m}{n} \\
+    w_1 &= \frac{w_m}{n} \quad (w = \frac{d\theta}{dt})
 \end{align*}
 
-\text{Derivamos nuevamente respecto al tiempo obtenemos la relación entre las aceleraciones angulares}
+Derivando nuevamente respecto al tiempo, obtenemos la relación entre las aceleraciones angulares:
 
-\text{a)}
+\subsection{Ecuaciones de Aceleración}
 \begin{align*}
-\text{Motor: } J_m \cdot a_m &= T_m(t) - T_L(t) \\ 
-\text{Cargas: } a_1 &= \frac{a_m}{n^2} = \frac{T_L(t)}{J_t + T_L(t)}
+    \text{Motor: } J_m \cdot a_m &= T_m(t) - T_L(t) \\ 
+    \text{Carga: } a_1 &= \frac{a_m}{n^2} = \frac{T_L(t)}{J_t + T_L(t)}
 \end{align*}
 
-\text{Donde } T_1 \text{ y } T_2 \text{ son los pares transmitidos a través de los engranajes. Debido a la transmisión ideal (sin pérdidas)}
+Donde \( T_1 \) y \( T_2 \) son los pares transmitidos a través de los engranajes. Debido a la transmisión ideal (sin pérdidas):
 
-\text{b)}
-\[ T_i = n \cdot T_2 \]
+\subsection{Relación de Pares}
+$$
+T_1 = n \cdot T_2
+$$
+
+## 7. Conclusiones
+   1. Los sistemas mecanicos se pueden representar con modelos matematicos que permiten encontrar una funcion que modele dicho sistema.
+   2. Las Ecuaciones Difereanciales permiten solucionar cualquier sistema para describir el movimiento en cualquier instante de tiempo
+   3. La Energia Cinetica, La Energia Potencial y el Concepto del Trabajo, son sistemas similiares a los sitemas masa-resorte pero sus ecuaciones y modelos cambian en el dominio del tiempo.
+
+## 8. Referencias
+   
+Jorge Eduardo Cote Ballesteros. (2025). Sistemas Rotacionales aplicados al trabajo ETITC.
+
+[Ingeniería de Control - W Bolton Segunda Edición]: Este es el texto que se mostrará como el enlace.
+(https://dn790007.ca.archive.org/0/items/IngenieraDeControlBolton/Ingenier%C3%ADa%20de%20Control%20-%20Bolton.pdf): 
+[Sistemasde Control Automático de Benjamin Cubo
+
+https://drive.google.com/file/d/1kDlTA1YEpmfSzMMv44MKI4-2bzA9wbDg/view
 
 
+ 
 
 
    
