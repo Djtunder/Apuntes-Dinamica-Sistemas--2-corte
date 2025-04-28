@@ -361,7 +361,9 @@ $$\text{Energía Potencial} \quad U = \frac{1}{2} k x^2$$
 
 $$J = \frac{1}{2} m R^2$$
 
-6.
+6. Ejercicios Resueltos
+
+   
 
 
 
