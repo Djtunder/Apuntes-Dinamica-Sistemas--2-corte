@@ -363,6 +363,26 @@ $$J = \frac{1}{2} m R^2$$
 
 6. Ejercicios Resueltos
 
+4.10 El Diagrama esquemático de un sistema motor-carga se presenta en la Fig. p-101. Se definen los siguientes parámetros y variables:
+𝑇𝑚(𝑡)Tm(t) es el par del motor, 𝜔𝑚(𝑡)ω m(t) es la velocidad angular, 𝜃𝑚(𝑡)θ m(t) es el desplazamiento del motor, 𝑤𝐿(𝑡)w L
+​(t) es la velocidad de carga, 𝜃𝐿(𝑡)θL(t) es el desplazamiento de la carga, 𝑘 k es la constante del resorte torsional, 𝐽𝑚 Jm​
+es la inercia del motor, 𝐵𝑚 Bm es el coeficiente de fricción viscosa del motor, y 𝐵𝐿 BL es el coeficiente de fricción viscosa de la carga.
+
+Solución
+
+$$- \( T_m(t) \): es el par del motor.$$
+$$- \( \omega_m(t) \): es la velocidad angular del motor.$$
+$$- \( \theta_m(t) \): es el desplazamiento del motor.$$
+$$- \( w_L(t) \): es la velocidad de carga.$$
+$$- \( \theta_L(t) \): es el desplazamiento de la carga.$$
+$$- \( k \): la constante del resorte torsional.$$
+$$- \( J_m \): es la inercia del motor.$$
+$$- \( B_m \): es el coeficiente de fricción viscosa del motor.$$
+$$- \( B_L \): es el coeficiente de fricción viscosa de la carga.$$
+
+
+
+
    
 
 
