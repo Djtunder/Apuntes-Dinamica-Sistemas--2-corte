@@ -308,6 +308,17 @@ $$m\ddot{x} + kx = 0$$
 
 Esta es la ecuación del movimiento armónico simple.
 
+# CASOS FRECUENTES
+
+$$m \ddot{x} + \frac{2}{3} k x = 0$$
+
+$$J = \text{depende de la figura}$$
+
+$$\frac{1}{2} m x^2 + \frac{1}{2} m \left(\frac{dx}{dt}\right)^2 + \frac{1}{2} k x^2$$
+
+$$\frac{3}{4} m x^2 + \frac{1}{2} k x^2 = \text{constante}$$
+
+
 
 
 
