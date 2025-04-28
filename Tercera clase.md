@@ -334,7 +334,7 @@ $$T_1 = \frac{N_1}{N_2} T_2$$
 
 3. Movimiento de Rotación de una Masa Resorte
 <div>
-<img src="
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/a66cd8eef96604d5af09ae3be24cb561d0340bd6/Build/Imagen2.jpg" width="300">
 </div>
    
 $$T_m - T_r = B m \frac{d \theta}{dt} = J m \frac{d^2 \theta}{dt^2}$$
@@ -351,12 +351,15 @@ $$T + U = \frac{1}{2} m x^2 + \frac{1}{2} J \left( \frac{d \theta}{dt} \right)^2
 
 5. Ejemplo - Sistema Mecánico
 
+
+
 $$T = \frac{1}{2} m x^2 + \frac{1}{2} J \left( \frac{d x}{dt} \right)^2$$
 
 $$\text{Energía Potencial} \quad U = \frac{1}{2} k x^2$$
 
 $$J = \frac{1}{2} m R^2$$
 
+6.
 
 
 
