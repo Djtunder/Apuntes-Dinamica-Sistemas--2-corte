@@ -325,7 +325,7 @@ $$\frac{3}{4} m x^2 + \frac{1}{2} k x^2 = \text{constante}$$
 
 2. Trenes de Engranajes, Palancas y Bandas
 <div align="center">
-<img src=
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/0c908cc980f7e664577a7673c30b2ac892eb4fc5/Build/Imagen2.jpg" witdh="300">
 </div>
 
 $$r_1 N_1 = r_2 N_2 \quad \Rightarrow \quad \dot{\theta}_1 = \dot{\theta}_2$$
