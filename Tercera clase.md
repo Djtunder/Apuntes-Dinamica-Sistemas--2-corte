@@ -351,7 +351,9 @@ $$T + U = \frac{1}{2} m x^2 + \frac{1}{2} J \left( \frac{d \theta}{dt} \right)^2
 
 5. Ejemplo - Sistema Mecánico
 
-
+<div align= "center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/c3ad10f7e64121731514795f4f5b27b3efbcdb2c/Build/Imagen4.jpg" width="300"> 
+</div>
 
 $$T = \frac{1}{2} m x^2 + \frac{1}{2} J \left( \frac{d x}{dt} \right)^2$$
 
