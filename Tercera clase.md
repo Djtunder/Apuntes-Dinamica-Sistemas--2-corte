@@ -308,7 +308,7 @@ $$m\ddot{x} + kx = 0$$
 
 Esta es la ecuación del movimiento armónico simple.
 
-# CASOS FRECUENTES
+# Casos frecuentes
 
 $$m \ddot{x} + \frac{2}{3} k x = 0$$
 
@@ -319,6 +319,32 @@ $$\frac{1}{2} m x^2 + \frac{1}{2} m \left(\frac{dx}{dt}\right)^2 + \frac{1}{2} k
 $$\frac{3}{4} m x^2 + \frac{1}{2} k x^2 = \text{constante}$$
 
 
+2. Trenes de Engranajes, Palancas y Bandas
 
+$$r_1 N_1 = r_2 N_2 \quad \Rightarrow \quad \dot{\theta}_1 = \dot{\theta}_2$$
+
+$$T_1 = \frac{N_1}{N_2} T_2$$
+
+3. Movimiento de Rotación de una Masa Resorte
+   
+$$T_m - T_r = B m \frac{d \theta}{dt} = J m \frac{d^2 \theta}{dt^2}$$
+
+$$T_1 = M r^2 \frac{d^2 \theta}{dt^2}$$
+
+$$T_m - M r^2 \frac{d^2 \theta}{dt^2} = B m \frac{d \theta}{dt}$$
+
+4. Momento de Inercia
+
+$$J = \frac{1}{2} m R^2 \quad \text{y} \quad x = R \theta$$
+
+$$T + U = \frac{1}{2} m x^2 + \frac{1}{2} J \left( \frac{d \theta}{dt} \right)^2$$
+
+5. Ejemplo - Sistema Mecánico
+
+$$T = \frac{1}{2} m x^2 + \frac{1}{2} J \left( \frac{d x}{dt} \right)^2$$
+
+$$\text{Energía Potencial} \quad U = \frac{1}{2} k x^2$$
+
+$$J = \frac{1}{2} m R^2$$
 
 
