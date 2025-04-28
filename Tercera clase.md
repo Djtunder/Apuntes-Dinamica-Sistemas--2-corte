@@ -325,7 +325,7 @@ $$\frac{3}{4} m x^2 + \frac{1}{2} k x^2 = \text{constante}$$
 
 2. Trenes de Engranajes, Palancas y Bandas
 <div align="center">
-<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/0c908cc980f7e664577a7673c30b2ac892eb4fc5/Build/Imagen2.jpg" witdh="300">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/6c871e477acf0a51c78fb0111585621418b750bf/Imagen5.jpg" witdh="300">
 </div>
 
 $$r_1 N_1 = r_2 N_2 \quad \Rightarrow \quad \dot{\theta}_1 = \dot{\theta}_2$$
@@ -333,6 +333,9 @@ $$r_1 N_1 = r_2 N_2 \quad \Rightarrow \quad \dot{\theta}_1 = \dot{\theta}_2$$
 $$T_1 = \frac{N_1}{N_2} T_2$$
 
 3. Movimiento de Rotación de una Masa Resorte
+<div>
+<img src="
+</div>
    
 $$T_m - T_r = B m \frac{d \theta}{dt} = J m \frac{d^2 \theta}{dt^2}$$
 
