@@ -370,15 +370,93 @@ es la inercia del motor, 𝐵𝑚 Bm es el coeficiente de fricción viscosa del 
 
 Solución
 
-$$- \( T_m(t) \): es el par del motor.$$
-$$- \( \omega_m(t) \): es la velocidad angular del motor.$$
-$$- \( \theta_m(t) \): es el desplazamiento del motor.$$
-$$- \( w_L(t) \): es la velocidad de carga.$$
-$$- \( \theta_L(t) \): es el desplazamiento de la carga.$$
-$$- \( k \): la constante del resorte torsional.$$
-$$- \( J_m \): es la inercia del motor.$$
-$$- \( B_m \): es el coeficiente de fricción viscosa del motor.$$
-$$- \( B_L \): es el coeficiente de fricción viscosa de la carga.$$
+<div align= "center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/485372a8724eb7e2e58dbc5aaedd725b00ce7406/Build/motor%20carga%20jl.jpg" width="300">
+</div>
+- \( T_m(t) \): es el par del motor.  
+
+- \( \omega_m(t) \): es la velocidad angular del motor.  
+
+- \( \theta_m(t) \): es el desplazamiento del motor.  
+
+- \( w_L(t) \): es la velocidad de carga.  
+
+- \( \theta_L(t) \): es el desplazamiento de la carga.  
+
+- \( k \): la constante del resorte torsional.  
+
+- \( J_m \): es la inercia del motor.  
+
+- \( B_m \): es el coeficiente de fricción viscosa del motor.  
+
+- \( B_L \): es el coeficiente de fricción viscosa de la carga.
+
+
+$$J = \frac{1}{2} M r^2$$
+
+$$T(t) = J \cdot \alpha(t)$$
+
+$$T(t) = J \cdot \frac{d \omega(t)}{dt} = J \cdot \frac{d^2 \theta(t)}{dt^2}$$
+
+Por Ejemplo:
+
+$$T(t) = k \cdot \theta(t)$$
+
+Por Fricción:
+
+$$T(t) = B \cdot \frac{d \theta(t)}{dt}$$
+
+Ecuación del Sistema:
+$$
+$$\sum F = J_m \cdot \alpha$$
+$$J \cdot \alpha(t) - B \cdot \frac{d \theta(t)}{dt} - k \cdot \theta(t) = 0$$
+
+Sabemos que:
+
+$$J \cdot \alpha(t) = B m \cdot \frac{d \theta(t)}{dt} + k \cdot \theta(t) = 0$$
+
+$$J \cdot \alpha(t) = J_m \cdot \frac{d \omega(t)}{dt} + J_m \cdot \frac{d^2 \theta(t)}{dt^2}$$
+
+**Coeficiente del resorte:**
+
+$$k \cdot \theta(t) = k \left[ \Delta m(t) - \Delta \theta(t) \right]$$
+
+**Coeficiente de fricción:**
+
+$$B_m \cdot \frac{d \Delta m(t)}{dt}$$
+
+**Ecuación Final:**
+
+$$J_m \cdot \frac{d^2 \Delta m(t)}{dt^2} = - B_m \cdot \frac{d \Delta m(t)}{dt} - k \left[ \Delta m(t) - \Delta \theta(t) \right] + T_m(t)$$
+
+Resouesta: La Ecuacion Final del Motor rwswpecto al motor- union del sistema es de: $$J_m \cdot \frac{d^2 \Delta m(t)}{dt^2} = - B_m \cdot \frac{d \Delta m(t)}{dt} - k \left[ \Delta m(t) - \Delta \theta(t) \right] + T_m(t)$$
+
+Ejercicio 2
+La imagen que muestra de la figura 4.7 muestra un sistema con Tren de Engranajes con una relacion de engranajes n= N1/N2. El par de motor es Tm(t), y T2(t) representa el par de carga.
+
+a) Encuentre una relacion de Engranjes optima n,tal que la aceleracion de la carga 
+$$\Delta(L) = \frac{d(\theta(t))}{dt}$$
+
+Solucion
+
+\begin{align*}
+\sum M &= J \cdot \ddot{\theta} \\
+\theta_1 &= \frac{\theta_m}{n} \\
+w_1 &= \frac{w_m}{n} \quad (w = \frac{d\theta}{dt}) 
+\end{align*}
+
+\text{Derivamos nuevamente respecto al tiempo obtenemos la relación entre las aceleraciones angulares}
+
+\text{a)}
+\begin{align*}
+\text{Motor: } J_m \cdot a_m &= T_m(t) - T_L(t) \\ 
+\text{Cargas: } a_1 &= \frac{a_m}{n^2} = \frac{T_L(t)}{J_t + T_L(t)}
+\end{align*}
+
+\text{Donde } T_1 \text{ y } T_2 \text{ son los pares transmitidos a través de los engranajes. Debido a la transmisión ideal (sin pérdidas)}
+
+\text{b)}
+\[ T_i = n \cdot T_2 \]
 
 
 
