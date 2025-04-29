@@ -48,6 +48,10 @@ Figura 4.1 Imagen de un Circuito RLC
 
  ### 1. Análisis de Ohm y Digital
 
+ <div align="center">
+  < img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/e2c5b3a3036c4696fb92d0a81efcc6115613a167/Build/circuito%201.jpg" width="300">
+ </div>
+
 1. \( 1kV \Rightarrow \sum v = 0 \)
    - Toda la energía se consume del circuito.
 2. Identificar las mallas del circuito.
@@ -59,9 +63,13 @@ $$\[V = L \frac{di}{dt}\]$$
 
 $$\[-u(t) + V_R + V_L + \gamma = 0 \quad \Rightarrow \quad \gamma = 0\]$$
 
-2. ## 2. Actividad: Obtener el Modelo para el Circuito
+ ## 2. Actividad: Obtener el Modelo para el Circuito
 
 Obtener el modelo para el circuito de la figura:
+
+ <div align="center">
+  < img src="" width="300">
+ </div>
 
 $$\[u(t) + V_{R1} + V_{R2} + V_C = 0\]$$
 
@@ -96,6 +104,12 @@ $$[V_{AB} = 2 \cdot \frac{dy(t)}{dt}\]$$
 $$\[u(t) - 6 \cdot \frac{dy(t)}{dt} - 2y(t) = 0\]$$
 
 ## Ejemplo 3
+
+Halllar el modelo matematico de la siguiente figura 
+
+ <div align="center">
+  < img src="" width="300">
+ </div>
 
 **Ley de Kirchhoff de Corrientes Aplicada:**
 
