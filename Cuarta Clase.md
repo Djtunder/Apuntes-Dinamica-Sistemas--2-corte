@@ -108,7 +108,7 @@ $$\[u(t) - 6 \cdot \frac{dy(t)}{dt} - 2y(t) = 0\]$$
 Halllar el modelo matematico de la siguiente figura 
 
  <div align="center">
-  < img src="" width="300">
+  < img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/60d148bbafac71feadf5c41182e61f2c9efa279e/Build/circuito%204.jpg" width="300">
  </div>
 
 **Ley de Kirchhoff de Corrientes Aplicada:**
