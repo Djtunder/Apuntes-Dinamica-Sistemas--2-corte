@@ -44,7 +44,73 @@ Figura 4.1 Imagen de un Circuito RLC
  
  4.4 🔑 Nodo:un nodo es cualquier punto donde se conectan dos o más componentes o elementos del circuito, como resistencias, fuentes de voltaje, o conductores. Básicamente, un nodo es un punto de unión o intersección dentro de un circuito eléctrico.
 
- 5. TABLAS
+ ## 5. Ejemplos
+
+ ### 1. Análisis de Ohm y Digital
+
+1. \( 1kV \Rightarrow \sum v = 0 \)
+   - Toda la energía se consume del circuito.
+2. Identificar las mallas del circuito.
+3. Dibujar las corrientes de las mallas.
+
+$$\[V = L \frac{di}{dt}\]$$
+
+**Elementos de Corrientes:**
+
+$$\[-u(t) + V_R + V_L + \gamma = 0 \quad \Rightarrow \quad \gamma = 0\]$$
+
+2. ## 2. Actividad: Obtener el Modelo para el Circuito
+
+Obtener el modelo para el circuito de la figura:
+
+$$\[u(t) + V_{R1} + V_{R2} + V_C = 0\]$$
+
+**Ecuaciones:**
+
+$$\[-u(t) + (R_1 + R_2) \cdot \frac{dV_C}{dt} = 0\]$$
+
+$$\[y(t) = V_{R2} + V_C\]$$
+
+### 3. Aplicando Ley de Kirchhoff de Corrientes (LKC)
+
+**Aplicando LKC:**
+
+$$[\sum i = 0\]$$
+
+$$[i_u - i_1 = i_c\]$$
+
+$$\[i_u = V_{AB} - 2 \frac{dy(t)}{dt} = 0]$$
+
+**Ecuaciones:**
+
+$$\[-u(t) + (R_1 + R_2) \cdot C \frac{dv}{dt} + V_0 = 0\]$$
+
+## 4. Ecuaciones de Voltajes y Corrientes
+
+**Voltaje y Corriente:**
+
+$$[V_{AB} = 2 \cdot \frac{dy(t)}{dt}\]$$
+
+**Ecuaciones:**
+
+$$\[u(t) - 6 \cdot \frac{dy(t)}{dt} - 2y(t) = 0\]$$
+
+## Ejemplo 3
+
+**Ley de Kirchhoff de Corrientes Aplicada:**
+
+$$\[- \frac{dex}{dt} = R_2 C_2 \cdot \frac{d^2 C_0}{dC_2^2} + \frac{dC_0}{dt}\]$$
+
+## 6. Ecuaciones Finales
+
+**Ecuaciones Generales:**
+$$[-e_x + \frac{R_2 C_2}{R_1} \cdot \frac{d}{dt} \left(\frac{R_2 + 1}{R_1} \right)=0]$$
+
+**Ecuaciones con Corrientes y Voltajes:**
+
+$$ [ei - e_x + C_1 \cdot \frac{d(0 - e_x)}{dt} + \frac{C_0 e_x}{R_2} = 0$$
+
+$$[ \frac{dex}{dt} + e_o + C_2 \cdot \frac{d^2 e_o}{dC_2^2} + \frac{dC_0}{dt} = 0$$
 
     
  
