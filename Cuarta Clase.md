@@ -68,7 +68,7 @@ $$\[-u(t) + V_R + V_L + \gamma = 0 \quad \Rightarrow \quad \gamma = 0\]$$
 Obtener el modelo para el circuito de la figura:
 
  <div align="center">
-  < img src="" width="300">
+  < img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/93da298ae244186e1f6dafa4f572ace333e666de/Build/circuito%202.jpg" width="300">
  </div>
 
 $$\[u(t) + V_{R1} + V_{R2} + V_C = 0\]$$
