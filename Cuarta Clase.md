@@ -138,6 +138,48 @@ Tabla 5.1 Concepto de las tablas de conceptos que se trabajan en corriente, Volt
 
 ## 6. Ejercicios
 
+<div align="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/a42b4ec2184dc5891d8a04711ac1b1e210046bdf/Build/problema%20circuito%201.jpg" width="300">
+</div>
+
+# Solución del problema utilizando el análisis de mallas
+
+Dado el circuito, utilizamos el análisis de mallas para obtener el modelo matemático. Las dos mallas tienen corrientes \( i_1 \) e \( i_2 \), y aplicamos la ley de voltajes de Kirchhoff (LVK) a cada malla.
+
+## Definición de las corrientes
+-\( i_1 \): Corriente en la primera malla (a través de \( R_1 \) y \( L \)).
+- \( i_2 \): Corriente en la segunda malla (a través de \( R_2 \) y \( C \)).
+
+## Aplicación de la Ley de Voltajes de Kirchhoff (LVK)
+
+### Malla 1
+Recorremos la malla en sentido horario:
+
+$$E - R_1 i_1 - L \frac{d}{dt} i_1 = 0$$
+
+$$E = R_1 i_1 + L \frac{d}{dt} i_1$$
+
+### Malla 2
+Recorremos la malla en sentido horario:
+
+$$R_2 i_2 + \frac{1}{C} \int i_2 \, dt = L \frac{d}{dt} i_1$$
+
+## Sistema de ecuaciones
+El sistema de ecuaciones que describe el comportamiento dinámico de las corrientes \( i_1 \) e \( i_2 \) es el siguiente:
+
+$$E = R_1 i_1 + L \frac{d}{dt} i_1$$
+
+$$R_2 i_2 + \frac{1}{C} \int i_2 \, dt = L \frac{d}{dt} i_1$$
+
+Este sistema de ecuaciones debe tener en cuenta para interpretar como se aplica la ley de Khirchoff en ananalisis de mallas
+
+# Ejercicio 2
+
+En el siguiente ejercicio, Obtenga el modelo matematico que se pueda resolver este circuito por analisis nodal, para hallar la funcion de la salida, con respecto a su entrada
+
+<div align="center">
+<img src="
+
 
 
     
