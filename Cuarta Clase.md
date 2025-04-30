@@ -178,7 +178,44 @@ Este sistema de ecuaciones debe tener en cuenta para interpretar como se aplica 
 En el siguiente ejercicio, Obtenga el modelo matematico que se pueda resolver este circuito por analisis nodal, para hallar la funcion de la salida, con respecto a su entrada
 
 <div align="center">
-<img src="
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/8f982ec7b66cc8a905de9981e3d5cca5e8459197/Build/4b7c0223-3dc4-4121-9b5e-21bd7ca7bef9.png" width="300">
+</div>
+
+#Solucion
+Para el análisis de este circuito con análisis de nodos, definimos los siguientes nodos:
+
+- \( V_{\text{in}} \): Voltaje de entrada.
+- \( V_1 \): Voltaje en el nodo entre \( R_1 \) y \( L_1 \).
+- \( V_2 \): Voltaje en el nodo entre \( R_2 \) y \( C_2 \).
+- \( V_{\text{out}} = V_2 \): Voltaje de salida.
+
+{Ecuaciones de Kirchhoff para los nodos}
+
+{Nodo 1}
+
+Para el nodo 1, se aplica la ley de corrientes de Kirchhoff (LCK):
+$$\[\frac{V_{\text{in}} - V_1}{R_1} + C_1 \frac{dV_1}{dt} + \frac{V_1 - V_2}{L_1} = 0\]$$
+
+\subsubsection*{Nodo 2}
+
+Para el nodo 2, se aplica nuevamente la LCK:
+$$\[\frac{V_2 - V_1}{L_1} + \frac{V_2}{R_2} + C_2 \frac{dV_2}{dt} = 0\]$$
+
+\subsection*{Sistema de ecuaciones diferenciales}
+
+El sistema de ecuaciones que describe el comportamiento del circuito es:
+
+$$\[\frac{V_{\text{in}} - V_1}{R_1} + C_1 \frac{dV_1}{dt} + \frac{V_1 - V_2}{L_1} = 0\]$$
+
+$$\[\frac{V_2 - V_1}{L_1} + \frac{V_2}{R_2} + C_2 \frac{dV_2}{dt} = 0\]$$
+
+Estas ecuaciones se pueden resolver numéricamente para obtener el voltaje de salida
+
+$$\( V_{\text{out}} = V_2 \).$$
+
+
+
+
 
 
 
