@@ -52,7 +52,7 @@ Figura 4.1 Imagen de un Circuito RLC
   <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/e2c5b3a3036c4696fb92d0a81efcc6115613a167/Build/circuito%201.jpg" width="300">
  </div>
 
-1. \( 1kV \Rightarrow \sum v = 0 \)
+1. $$\( 1kV \Rightarrow \sum v = 0 \)$$
    - Toda la energía se consume del circuito.
 2. Identificar las mallas del circuito.
 3. Dibujar las corrientes de las mallas.
@@ -125,6 +125,20 @@ $$[-e_x + \frac{R_2 C_2}{R_1} \cdot \frac{d}{dt} \left(\frac{R_2 + 1}{R_1} \righ
 $$ [ei - e_x + C_1 \cdot \frac{d(0 - e_x)}{dt} + \frac{C_0 e_x}{R_2} = 0$$
 
 $$[ \frac{dex}{dt} + e_o + C_2 \cdot \frac{d^2 e_o}{dC_2^2} + \frac{dC_0}{dt} = 0$$
+
+## 5. Tablas
+
+| Unidad del sistema | Ecuación descriptiva                                 | Ecuación en función del tiempo                         |
+|--------------------|------------------------------------------------------|--------------------------------------------------------|
+| Corriente          | $$i_C(t) = C \frac{dV}{dt}$$                         | $$i_L(t) = - \frac{1}{L} \int_0^t v \, dt + i_L(t_0)$$ |
+| Voltaje            | $$V_C(t) = \frac{1}{C} \int_0^t i \, dt + v_C(t_0)$$ | $$v_L(t) = L \frac{di}{dt}$$                           |
+| Potencia           | $$P_C = v i = C v \frac{dv}{dt}$$                    | $$P_L = v i = L i \frac{di}{dt}$$                      |
+
+Tabla 5.1 Concepto de las tablas de conceptos que se trabajan en corriente, Voltajes y Resistencias
+
+## 6. Ejercicios
+
+
 
     
  
