@@ -126,7 +126,7 @@ $$ [ei - e_x + C_1 \cdot \frac{d(0 - e_x)}{dt} + \frac{C_0 e_x}{R_2} = 0$$
 
 $$[ \frac{dex}{dt} + e_o + C_2 \cdot \frac{d^2 e_o}{dC_2^2} + \frac{dC_0}{dt} = 0$$
 
-## 5. Tablas
+## 7. Tablas
 
 | Unidad del sistema | Ecuación descriptiva                                 | Ecuación en función del tiempo                         |
 |--------------------|------------------------------------------------------|--------------------------------------------------------|
@@ -136,7 +136,7 @@ $$[ \frac{dex}{dt} + e_o + C_2 \cdot \frac{d^2 e_o}{dC_2^2} + \frac{dC_0}{dt} = 
 
 Tabla 5.1 Concepto de las tablas de conceptos que se trabajan en corriente, Voltajes y Resistencias
 
-## 6. Ejercicios
+## 8. Ejercicios
 
 <div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/a42b4ec2184dc5891d8a04711ac1b1e210046bdf/Build/problema%20circuito%201.jpg" width="300">
@@ -212,6 +212,44 @@ $$\[\frac{V_2 - V_1}{L_1} + \frac{V_2}{R_2} + C_2 \frac{dV_2}{dt} = 0\]$$
 Estas ecuaciones se pueden resolver numéricamente para obtener el voltaje de salida
 
 $$\( V_{\text{out}} = V_2 \).$$
+
+# 9. Código
+
+💡Ejemplo 4
+:
+% Parámetros del circuito
+
+R1 = 10;   % Resistencia R1 en ohmios
+R2 = 10;   % Resistencia R2 en ohmios
+L1 = 1e-3; % Inductancia L1 en henrios
+C1 = 1e-6; % Capacidad C1 en faradios
+C2 = 1e-6; % Capacidad C2 en faradios
+
+% Condiciones iniciales
+V1_0 = 0; % Condición inicial de V1
+V2_0 = 0; % Condición inicial de V2
+
+% Voltaje de entrada (suponemos un escalón unitario)
+Vin = @(t) 1 * (t >= 0);  % Paso de voltaje unitario (escala 1)
+
+% Ecuaciones diferenciales (sistema de orden 2)
+% Sistema: dV1/dt y dV2/dt
+
+# 10. Conclusiones
+Los Sistemas electricos son modelos matemticos que nos permiten analizar un circuito RLC, por metodo de mallas y Nodos que son tecnicas de solucion que permiten hallar los voltajes a las salidas, analizar las direcciones de las corrientes y entender como se comprtan los elementos pasivos(resisitencias), condensadores y bobinas.
+
+El analisis de Mallas, basandose en la Ley de Voltajes de Kirchoff nos permite hallar las corrientes en lazos cerrados, especialmente cuando hay muchos elementos conectados entre si, su analisis ayuda a solucionar mas rapido los circuitos de manera efectiva. 
+
+El analisis de Nodos permite se basa en la ley de corrientes de Kirchhoff (LCK) y es especialmente ventajoso en circuitos con múltiples puntos de conexión (nodos). Este método es útil cuando el circuito tiene muchos elementos conectados entre sí de manera que las corrientes en varios nodos deben ser determinadas simultáneamente. 
+
+# 11. Referencias
+
+Jorge Eduardo Cote Ballesteros- Clase 4:(file:///C:/Users/hp/Downloads/5.%20Sistemas%20el%C3%A9ctricos.pdf)
+
+Sistemas de Control Automatico- Benjamin Cubo-1996: https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/sistemas-de-control-automatico-benjamin-c-kuo.pdf
+
+Dinamica de Sistemas- Ogata K: https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
+
 
 
 
