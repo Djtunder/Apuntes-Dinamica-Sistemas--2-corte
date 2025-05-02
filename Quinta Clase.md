@@ -103,4 +103,20 @@ Ejemplo 2
 
 Con Elementos Almacenadores de energia
 
+<div>
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/f980f5dfe173d0ad6f3a85ce30f1f684e3e921d9/Build/amplificador%20carga%20rlc.jpg" width="300">
+</div>
+
+$$i_1 = i_2 + i_3$$
+
+$$\frac{e'}{R_1} = i_1$$
+
+$$ i_2 = C \frac{d e'}{dt}$$
+
+$$ i_3 = \frac{e'}{R_2}$$
+
+$$ e_o = e' $$
+
+# Actividad
+Obetner el Modelo matematico del siguiente Amplificador Operacional
 
