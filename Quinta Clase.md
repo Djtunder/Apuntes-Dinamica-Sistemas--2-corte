@@ -83,7 +83,9 @@ Solución
 
 \*{Amplificador no inversor}
 
-
+<div>
+ <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/984ae24ceb177f80da15cecd60534dfe512adf5f/Build/ampl%202.jpg" width="300">
+</div>
 
 
 $$ i_1 - i_2 = 0 $$
@@ -96,5 +98,9 @@ $$\frac{e_o}{R_2} = e_i \left( \frac{1}{R_2} + \frac{1}{R_1} \right)$$
 
 
 $$e_o = e_i \left( 1 + \frac{R_2}{R_1} \right)$$
+
+Ejemplo 2
+
+Con Elementos Almacenadores de energia
 
 
