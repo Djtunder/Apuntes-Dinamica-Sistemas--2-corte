@@ -144,16 +144,16 @@ h₁; Nivel de líquido en el tanque
 Modelado de sistemas de ecuaciones
 
 Flujo de salida del tanque
-$$ q₁ = h₁/R₁$$
+$$q₁ = h₁/R₁$$
 
 Intercambio de energía
-$$ A₁(dh₁/dt) = qᵢ - q₁$$
+$$A₁(dh₁/dt) = qᵢ - q₁$$
 
 
 Modelo qᵢ como entrada y h₁ como salida
-$$ q₁ = h₁/R₁ $$
-$$ A₁(dh₁/dt) = qᵢ - q₁ $$
-$$ A₁(dh₁/dt) = qᵢ - h₁/R₁ $$
+$$q₁ = h₁/R₁ $$
+$$A₁(dh₁/dt) = qᵢ - q₁$$
+$$A₁(dh₁/dt) = qᵢ - h₁/R₁$$
 
 Modelo qᵢ como entrada y q₁ como salida
 
