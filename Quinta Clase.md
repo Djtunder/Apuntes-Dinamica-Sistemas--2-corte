@@ -120,7 +120,7 @@ $$ e_o = e' $$
 # Actividad
 Obetner el Modelo matematico del siguiente Amplificador Operacional
 
-<div alignb ="center">
+<div align ="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/f980f5dfe173d0ad6f3a85ce30f1f684e3e921d9/Build/amplificador%20carga%20rlc.jpg" width="300">
 </div>
 
@@ -133,17 +133,36 @@ $$e = 0;$$
 # 5.3 Sistemas Hidraulicos
 "Se califica en sistemas hidráulicos y neumáticos de tanques.
 En sistemas industriales de taque que es deseable mantener el flujo a nivel constante."
-
-
-
+<div align="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/a9bd062221fea9417f5f37f5f62bc644d871e143/Build/tanques%201.jpg" width="300">
+</div>
 q₁, q₀; Flujos de entrada y salida de líquido
 R₁; Resistencia al flujo
 A₁; Área transversal del tanque
 h₁; Nivel de líquido en el tanque
 
+Modelado de sistemas de ecuaciones
+
+Flujo de salida del tanque
+$$ q₁ = h₁/R₁$$
+
+Intercambio de energía
+$$ A₁(dh₁/dt) = qᵢ - q₁$$
 
 
+Modelo qᵢ como entrada y h₁ como salida
+$$ q₁ = h₁/R₁ $$
+$$ A₁(dh₁/dt) = qᵢ - q₁ $$
+$$ A₁(dh₁/dt) = qᵢ - h₁/R₁ $$
 
+Modelo qᵢ como entrada y q₁ como salida
+
+$$ q₁ = h₁/R₁ $$
+$$ A₁(dh₁/dt) = qᵢ - q₁$$
+
+$$h₁ = q₁ * R₁$$
+
+$$R₁A₁(dq₁/dt) = qᵢ - q₁$$
 
 
 
