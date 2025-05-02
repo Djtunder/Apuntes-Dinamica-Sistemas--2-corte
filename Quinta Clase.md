@@ -25,10 +25,42 @@ En   la   clase se vio las caracteriticas de los   fenómenos físicos  reales p
 
 3.15.1 Diseñar y aplicar circuitos electrónicos utilizando amplificadores operacionales, para la amplificación de señales y el control de sistemas mecatrónicos, mejorando la precisión y eficiencia en sistemas de retroalimentación y control.
 
- 4. ## Definiciones
-    🔑 Amplificador Operacional: Es un componente electrónico de propósito general que amplifica la diferencia de voltaje entre dos entradas, conocidas como entrada no inversora (+) y entrada inversora (-). Los amplificadores operacionales son elementos clave en una gran cantidad de circuitos electrónicos debido a su versatilidad y características de alta ganancia.
+ ## 4. Definiciones
+   4.1 🔑 Amplificador Operacional: Es un componente electrónico de propósito general que amplifica la diferencia de voltaje entre dos entradas, conocidas como entrada no inversora (+) y entrada inversora (-). Los amplificadores operacionales son elementos clave en una gran cantidad de circuitos electrónicos debido a su versatilidad y características de alta ganancia.
 
 <div align="center">
-<img src=""> 
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/1216cc60d2708ca1ce8c709a64a24b948c062c70/Build/amplificador%20operacional.png" width="300"> 
 </div>
- 
+Figra 4.1 Imagen de la estructura de un amplificador operacional 
+
+ ## 4.2 Caracteristicas de los Amplificadores Operacionales
+
+# 4.21 Entradas:
+
+Entrada no inversora (+ Vin): La señal que se introduce en esta entrada no cambia de signo en la salida. Es decir, si la señal de entrada se aumenta, la salida también lo hace de manera proporcional.
+
+Entrada inversora (- Vin): En esta entrada, la señal de entrada se invierte en la salida. Si la señal de entrada aumenta, la salida disminuirá en la misma proporción, pero con signo opuesto.
+
+# 4.22 Suministro de Voltaje (Vs):
+
+Los amplificadores operacionales requieren una alimentación positiva (+Vs) y negativa (-Vs) para funcionar correctamente, lo que les permite amplificar señales dentro de un rango determinado. La salida no puede exceder estos valores de voltaje.
+
+# 4.23 Salida (Vout):
+
+La salida de un amplificador operacional se basa en las señales de las entradas, multiplicadas por el factor de ganancia del amplificador (dependiendo de la configuración del circuito). La señal puede ser positiva o negativa dependiendo de las entradas y la configuración del amplificador (inversora o no inversora).
+
+# 4.24 Configuración del amplificador:
+
+El amplificador operacional puede usarse en diversas configuraciones (inversora, no inversora, seguidor de voltaje, etc.), y su comportamiento depende de cómo se conecten las resistencias en el circuito. En el caso de la configuración mostrada en la imagen, el amplificador tiene dos entradas (una inversora y una no inversora) y puede amplificar la señal según sea necesario.
+
+# 4.25 Ganancia:
+
+La ganancia de un amplificador operacional ideal es muy alta, lo que significa que cualquier diferencia de voltaje entre las entradas, por pequeña que sea, se amplificará de manera significativa. En la práctica, la ganancia se controla a través de la retroalimentación externa en el circuito.
+
+# 4.26 Uso común:
+
+Se utilizan para amplificar señales débiles, realizar operaciones matemáticas (como sumas, restas, integrales y derivadas), y en muchos circuitos de control y procesamiento de señales.
+
+5. Amplificador no inversor
+
+
