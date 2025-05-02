@@ -8,11 +8,11 @@
 
  Los Amplificadores Operacionales se utlizan en las Leyes de kirchoff, y en circuitos electricos. Se aplican en la automatización y control de procesos. Los sistemas hidráulicos utilizan líquidos como medio para transmitir energía y controlar mecanismos,os sistemas hidráulicos se basan en el principio de que un fluido incomprensible, generalmente aceite, puede transmitir fuerza y energía a través de tuberías y componentes. Estos sistemas permiten generar movimientos de precisión y gran fuerza con relativamente poco esfuerzo. 
 
-2. #Resumen
+## 2. Resumen
    
 En   la   clase se vio las caracteriticas de los   fenómenos físicos  reales por  medio de amplificadores   operacionales   formando   circuitoselectrónicos   dinámicos,   permitiendo   conocer   laimportancia   de   los   circuitos   electrónicos   a   la   hora  desimular un sistema, aplicando leyes de Khirchoff. En la segunda parte de la clase vimos los sistemas de Tanques, sus ecuaaciones y sus diferentes caracteriticas cuando estan interconectados entre si, aplicando ecuaciones diferenciales.
 
-3. #Objetivos
+## 3. Objetivos
 3.1 Objetivos Generales
 
 3.11 Objetivos Generales
@@ -24,5 +24,11 @@ En   la   clase se vio las caracteriticas de los   fenómenos físicos  reales p
 3.14.1  Desarrollar la capacidad para modelar y simular sistemas hidráulicos, utilizando ecuaciones de control y análisis dinámico, con el fin de optimizar el diseño de mecanismos hidráulicos en sistemas automatizados.
 
 3.15.1 Diseñar y aplicar circuitos electrónicos utilizando amplificadores operacionales, para la amplificación de señales y el control de sistemas mecatrónicos, mejorando la precisión y eficiencia en sistemas de retroalimentación y control.
-   
+
+ 4. ## Definiciones
+    🔑 Amplificador Operacional: Es un componente electrónico de propósito general que amplifica la diferencia de voltaje entre dos entradas, conocidas como entrada no inversora (+) y entrada inversora (-). Los amplificadores operacionales son elementos clave en una gran cantidad de circuitos electrónicos debido a su versatilidad y características de alta ganancia.
+
+<div align="center">
+<img src=""> 
+</div>
  
