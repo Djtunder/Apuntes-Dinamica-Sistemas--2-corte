@@ -4,24 +4,42 @@
 # Curso: M6A
 
 # SISTEMAS MECANICOS
-## 1. Introducción
+# 1. Introducción
 Para analizar los sistemas de control se necesitan emplear modelos matematicos que se basan en las leyes fisicas para gobernar el comportamiento de cualquier sistema.
 >>
  ¿Como empleamos los sistemas aplicando los Modelos Matematicos?
 >>
 A travez de los diagramas de Bloques, donde hay una entrada que se emplea una funcion matematica y una salida de esa funcion. Las Relaciones de entrada y salida se pueden definir dichos sistemas, tiene relaciones causa- efecto y entre estos elementos se conforman diferentes parametros de bloques de funciones basicos para producir ecuaciones y principios matemáticos.
 
-# BLOQUES FUNCIONALES DE SISTEMAS MECANICOS
+# 2. Resumen
+En general vamos a explicar el modelado de los sistemas mecanicos, ya que se  pueden desciribir varias dimensiones como la translacion y rotacion, pero aca vamos a ver como un sistema- masa resorte amortiguador, se comporta en diferentes sistemas de la vida cotidiana , como sus fuerzas frente al cambio den pocision, aceleracion y desplazamiento.
+
+# 3. Objetivos
+
+Objetivos Generales
+
+Analizar y modelar sistemas dinámicos a través de diagramas de bloques, aplicando funciones matemáticas que relacionen las entradas y salidas, con el fin de entender cómo los sistemas interactúan entre sí mediante relaciones causa-efecto, y cómo los parámetros básicos de las funciones definen las ecuaciones y principios matemáticos subyacentes.
+
+Estudiar el comportamiento de sistemas mecánicos, como el sistema masa-resorte-amortiguador, en función de variables como la posición, aceleración y desplazamiento, para comprender su aplicación en escenarios de la vida cotidiana y su influencia en el cambio de estado de un sistema.
+
+Objetivos Específicos
+
+Desarrollar ecuaciones y modelos matemáticos para sistemas mecánicos utilizando diagramas de bloques, identificando la relación de causa-efecto entre los parámetros de entrada y salida de la función matemática que describe el sistema.
+
+Simular y analizar el comportamiento de un sistema masa-resorte-amortiguador en diferentes condiciones de la vida real, evaluando cómo las fuerzas de cambio afectan las variables de posición, aceleración y desplazamiento, y cómo estos afectan el rendimiento y estabilidad del sistema.
+  
+
+# 4.BLOQUES FUNCIONALES DE SISTEMAS MECANICOS
  Las formas basicas de los bloques funcionales de sistemas mecanicos son tres elementos que conforman son los resortes, masa, y amortiguadores.
  >>
- 🔑 Resorte: Es un componente mecánico elástico diseñado para almacenar y liberar energía. Generalmente está fabricado con materiales metálicos, como acero al carbono o acero inoxidable, aunque también existen versiones no metálicas o en multitud de materiales para aplicaciones específicas. Este elemento representa la rigudez del cuerpo.
+ 🔑 4.1 Resorte: Es un componente mecánico elástico diseñado para almacenar y liberar energía. Generalmente está fabricado con materiales metálicos, como acero al carbono o acero inoxidable, aunque también existen versiones no metálicas o en multitud de materiales para aplicaciones específicas. Este elemento representa la rigudez del cuerpo.
 >>
  <div align="center">
  <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/299363ee395bd9bfdcbfe020186725f9588064a1/resorte.jpg" width="300">
   </div>
 
 
-🔑 Amortiguadores: Es un elemento que se emplea para representar pictoricamente las fuerzas de amortiguamiento que hacen mas lento el movimiento del objeto y consta de un piston que se mueve dentro de un clindro cerrado. El movimiento dentro del cilindro cerrado. El movimiento del piston requiere que el fluido pase de un lado a otro. Este produce una fuerza resistiva en el caso ideal, la Fuerza resistiva o de amaortiguamiento F es proporcional a la velocidad v del piston.
+🔑 4.2 Amortiguadores: Es un elemento que se emplea para representar pictoricamente las fuerzas de amortiguamiento que hacen mas lento el movimiento del objeto y consta de un piston que se mueve dentro de un clindro cerrado. El movimiento dentro del cilindro cerrado. El movimiento del piston requiere que el fluido pase de un lado a otro. Este produce una fuerza resistiva en el caso ideal, la Fuerza resistiva o de amaortiguamiento F es proporcional a la velocidad v del piston.
  >>
  <div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/99ed05eb858429fc36236baf1b4e36178d610819/Build/amortiguador.jpg.png" width="300">
@@ -32,15 +50,15 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/c13787753e34825e7a5794230e020255ca72a419/Build/masa.jpg" width="300">
  </div>
 
- # FRICCIÓN
+ # 5. FRICCIÓN
  
- 🔑 Definicion:es un concepto que involucra la interacción entre un sistema de masa y resorte, considerando la resistencia al movimiento debido a la fricción. Este tipo de sistema es comúnmente analizado en la física para estudiar el comportamiento de oscilaciones amortiguadas.
+ 🔑 Definición:es un concepto que involucra la interacción entre un sistema de masa y resorte, considerando la resistencia al movimiento debido a la fricción. Este tipo de sistema es comúnmente analizado en la física para estudiar el comportamiento de oscilaciones amortiguadas.
  
  <div align= "center">
  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/2b8d06868bb9120c7def887ebf84d8ae16051504/friccion.jpg" width="300">
  </div>
  
- # TIPOS DE FRICCIÓN
+ # 5.1 TIPOS DE FRICCIÓN
   🔑 Fuerzas de Friccion: Es una reaccion de una fuerza externa, que depende de la velcidad.
   
   <div align= "center">
@@ -53,13 +71,13 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
    <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/e8c8e17128bcdf8461d2b147eda7099e554aa3fd/Build/friccion%20estatica.png" width="300">
    </div>
   
-  🔑 Fricción por Deslizamiento: Es la fuerza que se opone ante el movimiento deslizante de dos objetos de un objeto o una superficie. 
+  🔑 5.11 Fricción por Deslizamiento: Es la fuerza que se opone ante el movimiento deslizante de dos objetos de un objeto o una superficie. 
   
    <div align= "center">
    <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/de9c67b919655f1ab36918d1f77efa89a3718c5a/Build/friccion%20por%20deslizamiento.png" width="300">
    </div>
   
-   🔑 Fricción por Rodamiento: La friccion por Rodamiento implica en superficies no concordantes, es una fuerza resistiva que actua entre dos superficies en contacto cuando se desliza 
+   🔑 5.12 Fricción por Rodamiento: La friccion por Rodamiento implica en superficies no concordantes, es una fuerza resistiva que actua entre dos superficies en contacto cuando se desliza 
       o intenta deslizrse una sobre la otra.
    
  <div align= "center">
@@ -73,7 +91,7 @@ A travez de los diagramas de Bloques, donde hay una entrada que se emplea una fu
  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/6d1e8ea872022d29af1ecc33b73791ce8eff1b72/Build/sistema%20masa-resorte-amortiguador.jpg" width="300">
  </div>
  
- # 3. Ecuaciones
+ # 6. Ecuaciones
  
  $y = \textit{la salida que yo quiero conocer}$*
 
@@ -116,7 +134,7 @@ $k = \textit{es la constante del resorte},$
 
 $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
 
- ## Fricción Viscosa
+ ## 6.1 Fricción Viscosa
 🔑La fuerza de fricción Fv que actúa en el Movimiento Armónico Amortiguado es proporcional a la velocidad V en la mayoría de los casos de interés científico. Dicha fuerza tiene la forma Fv = bV, donde b es una constante positiva que depende de las características del fluido que ocasiona la fricción, entre otras cosas. Esta fricción, también conocida como Fricción Viscosa, se representa mediante un diagrama que consiste en un pistón y un cilindro lleno de aceite:
 
  <div align= "center">
@@ -134,8 +152,8 @@ $x = \textit{es el desplazamiento de la masa desde la posición de equilibrio.}$
  <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/52649eb86dc511eea11b6fb12642b7bc4d0621f1/Build/grafica%20de%20resortes.jpg" width="300">
  </div>
 
-4. ## EJERCICIOS
-4.1 Hallar la ecuacion Diferencial del sistema masa resorte- amortiguador
+6. # EJERCICIOS 📚
+6.1 Hallar la ecuacion Diferencial del sistema masa resorte- amortiguador
   
  <div align= "center">
   <img src= "https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/47242b2460dfb97629aa9edc934af9b2eb469182/Build/Captura%20de%20pantalla%202025-04-09%20210219.jpg" width="300">
@@ -176,7 +194,7 @@ $$𝑚𝑔+𝑢(𝑡)−𝑘2𝑦(𝑡)−𝑘1𝑦^′ (𝑡)=𝑚𝑦¨(𝑡)$
 $$𝑢+𝐹𝑤−𝐹𝑟−𝐹𝐹=𝑚∗𝑎$$
 $$−𝑢−𝐹𝑤+𝐹𝑟+𝐹𝐹=−𝑚∗𝑎$$
 
-# Vibracion Libre
+# 4.3 Vibracion Libre
 🔑Definición: 	Aún aplicando entrada durante un intervalo de tiempo definido es posible provocar un comportamiento oscilatorio en la variable de salida del sistema
 •	Por ejemplo, en el caso de la suspensión si se aplica una fuerza constante durante un intervalo corto de tiempo y se retira dicho estímulo el sistema tiende a vibrar
 •	Este movimiento periódico se conoce como vibración libre
@@ -185,7 +203,7 @@ $$−𝑢−𝐹𝑤+𝐹𝑟+𝐹𝐹=−𝑚∗𝑎$$
   <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/13825c612a482899d14c48c81b08caea37f0ed05/Build/ejericio%20resorte%20masa-amortiguador.jpg?raw=true" width="400"/>
 </p>
 
-Ejemplo
+💡 Ejemplo
 >>
 •	Simular la solución de este sistema sabiendo:
 𝑁
@@ -228,7 +246,7 @@ Simplificada:
 
 $$460x¨1+2000x˙1+45000x1-22500x2=0460 \ddot{x}_1 + 2000 \dot{x}_1 + 45000 x_1 - 22500 x_2 = 0460x¨1+2000x˙1+45000x1-22500x2=0$$
 
-⚙️ Ecuaciones del sistema
+# 5. Ecuaciones del sistema
 
 $$\{Segunda}\ \{ecuación (masa m2m_2m2)}:$$
 
@@ -242,7 +260,21 @@ Simplificada:
 
 $$300x¨2+22500x2-22500x1=0300 \ddot{x}_2 + 22500 x_2 - 22500 x_1 = 0300x¨2+22500x2-22500x1=0$$
 
-# EJERCICIO 2
+# 6. Tablas 
+
+# Relaciones fuerza-velocidad, fuerza-desplazamiento e impedancia
+
+## Tabla 2.4: Relaciones para resortes, amortiguadores viscosos y masa
+
+| Componente         | Fuerza-velocidad                                      | Fuerza-desplazamiento              | Impedancia \( Z_M(s) \) |
+|--------------------|-------------------------------------------------------|------------------------------------|-------------------------|
+| **Resorte**        | \( f(t) = K \int_0^t \dot{x}(\tau) \, d\tau \)        | \( f(t) = K x(t) \)               | \( K \)                 |
+| **Amortiguador viscoso** | \( f(t) = f_y \dot{x}(t) \)                         | \( f(t) = f_y \frac{dx(t)}{dt} \) | \( f_y s \)             |
+| **Masa**           | \( f(t) = M \frac{d \dot{x}(t)}{dt} \)               | \( f(t) = M \frac{d^2 x(t)}{dt^2} \) | \( M s^2 \)             |
+
+
+# 8. Ejericios
+EJERCICIO 2 📚
 # SISTEMA MASA-RESORTE COMPLEJO
 
 🔑Definición: En resumen, el análisis de un sistema masa-resorte complejo de carros horizontales involucra resolver ecuaciones diferenciales que modelan el movimiento de la masa(s), teniendo en cuenta las fuerzas elásticas, de fricción y las posibles fuerzas externas. Para sistemas más complejos, se requieren métodos de simulación computacional.
@@ -298,7 +330,7 @@ $$u(t) - k_1 x_1(t) - k_2 \left( x_1(t) - x_2(t) \right) - b \frac{d(x_1(t) - x_
 $$k_2 \left( x_1(t) - x_2(t) \right) + b \frac{d(x_1(t) - x_2(t))}{dt} - k_3 x_2(t) = m_2 \frac{d^2 x_2(t)}{dt^2}$$
 
 
-## EJERCICIOS DE REPASO
+## 9. EJERCICIOS DE REPASO 📚
 
 La Figura 1 muestra un sistema masa-resorte-amortiguador. La salida es el desplazamiento x(t) del sistema, mientras que la entrada es la fuerza u(t) que se ejerce sobre la masa m. Hallar el modelo matematico de dicho sistema.
 
@@ -400,13 +432,13 @@ $$F(k_2) = m_2 \ddot{x}_2(t)$$
 
 $$\[k_2 \left( x_1(t) - x_2(t) \right) = m_2 \ddot{x}_2(t)\]$$
 
-## CONCLUSIONES
+## 10. CONCLUSIONES
 
 El análisis de sistemas masa-resorte en ingeniería mecánica es clave para comprender cómo se transmiten y disipan las fuerzas dentro de un sistema. Este modelo permite simular el comportamiento vibratorio de componentes como suspensiones, estructuras o mecanismos articulados, facilitando su diseño seguro, eficiente y con mayor vida útil frente a cargas dinámicas.
 
 La formulación matemática de un sistema masa-resorte, mediante ecuaciones diferenciales, proporciona una base sólida para el diseño de sistemas de control en ingeniería. Esto permite predecir el comportamiento del sistema bajo diferentes condiciones, optimizar su desempeño y aplicar técnicas modernas como el análisis en el dominio de Laplace o el uso de simulaciones computacionales.
 
-## BIBLIOGRAFIA
+## 11. BIBLIOGRAFIA
 https://dademuchconnection.wordpress.com/2017/07/18/dinamica-de-un-sistema-masa-resorte-amortiguador/
 
 
