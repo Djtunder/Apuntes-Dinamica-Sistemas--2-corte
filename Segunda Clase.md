@@ -439,7 +439,9 @@ El análisis de sistemas masa-resorte en ingeniería mecánica es clave para com
 La formulación matemática de un sistema masa-resorte, mediante ecuaciones diferenciales, proporciona una base sólida para el diseño de sistemas de control en ingeniería. Esto permite predecir el comportamiento del sistema bajo diferentes condiciones, optimizar su desempeño y aplicar técnicas modernas como el análisis en el dominio de Laplace o el uso de simulaciones computacionales.
 
 ## 11. BIBLIOGRAFIA
-https://dademuchconnection.wordpress.com/2017/07/18/dinamica-de-un-sistema-masa-resorte-amortiguador/
+Pagina web de Ejerciios de Sitemas Masa-resorte: (https://dademuchconnection.wordpress.com/2017/07/18/dinamica-de-un-sistema-masa-resorte-amortiguador/)
+Dinamica de Sistemas: Kushito Ogata (https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf)
+Ingenieria de Control- W. Bolton: 
 
 
    
