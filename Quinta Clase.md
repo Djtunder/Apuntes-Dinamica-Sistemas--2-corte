@@ -103,7 +103,7 @@ Ejemplo 2
 
 Con Elementos Almacenadores de energia
 
-<div>
+<div align = "center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/f980f5dfe173d0ad6f3a85ce30f1f684e3e921d9/Build/amplificador%20carga%20rlc.jpg" width="300">
 </div>
 
@@ -119,4 +119,31 @@ $$ e_o = e' $$
 
 # Actividad
 Obetner el Modelo matematico del siguiente Amplificador Operacional
+
+<div alignb ="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/f980f5dfe173d0ad6f3a85ce30f1f684e3e921d9/Build/amplificador%20carga%20rlc.jpg" width="300">
+</div>
+
+Solucion del Ejercicio 
+
+$$C * d(ei)/dt + (ei - e')/R1 + C * d(e')/dt + (e' - eo)/R2 = 0;$$
+$$ei = e'; % Condición inicial de la salida$$
+$$e = 0;$$
+
+# 5.3 Sistemas Hidraulicos
+"Se califica en sistemas hidráulicos y neumáticos de tanques.
+En sistemas industriales de taque que es deseable mantener el flujo a nivel constante."
+
+
+
+q₁, q₀; Flujos de entrada y salida de líquido
+R₁; Resistencia al flujo
+A₁; Área transversal del tanque
+h₁; Nivel de líquido en el tanque
+
+
+
+
+
+
 
