@@ -79,4 +79,20 @@ Figra 5.1 Imagen  Amplificador No Inversor
 Impedancias = 0
 
 Ejemplo 1 
+Solución 
+
+\*{Amplificador no inversor}
+
+
+$$ i_1 - i_2 = 0 $$
+
+
+$$\frac{e_o - e_i}{R_2} = \frac{e_i}{R_1}$$
+
+
+$$\frac{e_o}{R_2} = e_i \left( \frac{1}{R_2} + \frac{1}{R_1} \right)$$
+
+
+$$e_o = e_i \left( 1 + \frac{R_2}{R_1} \right)$$
+
 
