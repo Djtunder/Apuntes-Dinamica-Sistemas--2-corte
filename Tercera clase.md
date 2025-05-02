@@ -10,9 +10,11 @@ En general, los sistemas rotacionales estan relacionados con el modelado de sist
 # 2. Resumen
 Exponiendo esta teoria, ya vista vamos a explicar su concepto, partiendo del modelado del sistema dinamico, teniendo en cuenta su Diagrama de Cuerpo Libre, su interpretación usando formulas, y conceptos fisicas, que nos llegran a entender su significado. Por otro lado vamos a estudiar el concepto de Trabajo, Energia y Potencia donde exponeremos casos con problemas, teniendo en cuenta sus variables, ecuaciones, y analizis para poder comprobar si es necesario usar los grados de Libertad.
 
+# 3. Objetivos
 
-# 3. Definiciones
-🔑 Sistemas Rotacionales: Los sistemas Rotacionales son un fenomeno mecanico, ya que estan relacionados con el concepto de Rotación. Estos modelos giran alrededor de un obejto y se aplican en robotica, control y mecanica.
+
+# 4. Definiciones
+🔑Sistemas Rotacionales: Los sistemas Rotacionales son un fenomeno mecanico, ya que estan relacionados con el concepto de Rotación. Estos modelos giran alrededor de un obejto y se aplican en robotica, control y mecanica.
 
 <div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/98d69492801bb8a1894cc1039df89f9a485901db/Build/Figura-33-Sistema-rotacional-masa-resorte-amortiguador.png" width= "300">
@@ -79,20 +81,18 @@ $$T(t) = k \times \theta(t) - b \times \frac{d \theta(t)}{dt} = J \times \frac{d
 🔑 Trabajo: Es la medida de ceunta fuerza se realiza con esfuerzo.
 Su formula general esta representada por: 
 
-Fórmulas
+5.#Fórmulas
 
-$$
-\mathbf{F} = m \times a
-$$
+$$\mathbf{F} = m \times a$$
 
-🔑 Energia: Capacidad para realizar un trabajo.
+🔑5.1 Energia: Capacidad para realizar un trabajo.
 Se divide en dos tipos de enrgtia, las cuales son: Energia Cinetica y Energia Potencial.
 
-🔑 Energia Cinetica: La energía cinética es la energía que posee un objeto debido a su movimiento. Se calcula utilizando la fórmula:
+🔑5.2 Energia Cinetica: La energía cinética es la energía que posee un objeto debido a su movimiento. Se calcula utilizando la fórmula:
 
 $$E = \frac{1}{2} \times m \times v^2$$
 
-🔑 Energia Potencial: En los sistemas mecancanicos le energia potencial cambia de acuerdo a la pocision con respecto a la referencia. 
+🔑 5.3 Energia Potencial: En los sistemas mecancanicos le energia potencial cambia de acuerdo a la pocision con respecto a la referencia. 
 
 $$U = \int_0^h mg \, dx = mgh$$
 
@@ -102,13 +102,14 @@ $$E = F \times \Delta x$$
 
 # Importante
 Solamente los elementos de inercia pueden almacenar energía cinética
-Un cambio en la energía cinética es el trabajo realizado sobre una masa por la aplicación de una fuerza que 
-# Formulas
+Un cambio en la energía cinética es el trabajo realizado sobre una masa por la aplicación de una fuerza que representa este sistema.
+
+# 6. Formulas y Ecuaciones 
 
 $$T = \frac{1}{2} mv^2$$
 $$T = \frac{1}{2} J \dot{\theta}^2$$
 
-# Demostración de la Energia Cinetica
+# 6.1 Demostración de la Energia Cinetica
 
 $$\Delta T = \Delta W = \int_{x_1}^{x_2} F \, dx = \int_{t_1}^{t_2} F \frac{dx}{dt} dt$$
 $$ = \int_{t_1}^{t_2} Fv \, dt = \int_{t_1}^{t_2} m v v \, dt = \int_{v_1}^{v_2} m v \, dv$$
@@ -130,7 +131,7 @@ De su forma general
 
 $$ \Delta U = \int_{x_1}^{x_2} F \, dx = \int_{x_1}^{x_2} kx \, dx = \frac{1}{2} kx_2^2 - \frac{1}{2} kx_1^2 $$
 
- # Potencia en el Amortiguador
+ # 6.2 Potencia en el Amortiguador
  El Resorte, el amortiguador y la masa son los bloque funcionales que representan los sistemas mecanicos donde las fuerzas y desplazamientos lineales que estan representados por fuerzas y desplazamientos. Hay que tener en cuenta que tanto los amortiguadores y los resortes se oponen al movimiento. Entonces esto se representa de la siguiente manera.
 
  <div align="center">
@@ -144,14 +145,14 @@ Sabiendo que:
 
 $$ P = kx \dot{x} = \dot{U} $$
 
-# Potencia almacenda en los Amortiguadores
+# 6.3 Potencia almacenda en los Amortiguadores
 Con un Amortiguador Giratorio un disco gira en un fluido resistivo T, es proporcional a la velocidad angular w y dado que la velocidad angular es la tasa de cambio del desplazamiento angular, es decir:
 
 <div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/c06ccd0cb23da40ef50a0a685e2bc2fa28828cb9/Build/amortiguador%2019.jpg" width="300">
 </div>
 
-# 4. Tablas
+# 7. Tablas
 
 | Momento de Inercia        | Ecuación descriptiva                                       | Energía de Potencia almacenada |
 |---------------------------|------------------------------------------------------------|--------------------------------|
@@ -169,7 +170,7 @@ $$(T+U)= W$$
 
 $$T+U= constante$$
 
-# 5. Ejercicios
+# 8. Ejemplo 1 💡
 
 1. Enunciado:
 
@@ -228,7 +229,7 @@ Ya que \( \dot{x} \) no puede ser cero en todo momento (excepto en puntos espec�
 
 $$m \ddot{x} + k x = 0$$
 
-# Ejemplo 2
+# Ejemplo 2 💡
 
 <div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/60f471af7e3ed7eeb7304d63b049fd9158a87bdc/Build/Imagen3.jpg" width="300">
@@ -335,7 +336,7 @@ $$r_1 N_1 = r_2 N_2 \quad \Rightarrow \quad \dot{\theta}_1 = \dot{\theta}_2$$
 $$T_1 = \frac{N_1}{N_2} T_2$$
 
 3. Movimiento de Rotación de una Masa Resorte
-<div>
+<div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/a66cd8eef96604d5af09ae3be24cb561d0340bd6/Build/Imagen2.jpg" width="300">
 </div>
    
@@ -351,7 +352,7 @@ $$J = \frac{1}{2} m R^2 \quad \text{y} \quad x = R \theta$$
 
 $$T + U = \frac{1}{2} m x^2 + \frac{1}{2} J \left( \frac{d \theta}{dt} \right)^2$$
 
-5. Ejemplo - Sistema Mecánico
+6. 💡 Ejemplo - Sistema Mecánico
 
 <div align= "center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/c3ad10f7e64121731514795f4f5b27b3efbcdb2c/Build/Imagen4.jpg" width="300"> 
@@ -363,7 +364,7 @@ $$\text{Energía Potencial} \quad U = \frac{1}{2} k x^2$$
 
 $$J = \frac{1}{2} m R^2$$
 
-6. Ejercicios Resueltos
+# 📚 8. Ejercicios Resueltos
 
 4.10 El Diagrama esquemático de un sistema motor-carga se presenta en la Fig. p-101. Se definen los siguientes parámetros y variables:
 𝑇𝑚(𝑡)Tm(t) es el par del motor, 𝜔𝑚(𝑡)ω m(t) es la velocidad angular, 𝜃𝑚(𝑡)θ m(t) es el desplazamiento del motor, 𝑤𝐿(𝑡)w L
@@ -433,7 +434,7 @@ $$J_m \cdot \frac{d^2 \Delta m(t)}{dt^2} = - B_m \cdot \frac{d \Delta m(t)}{dt} 
 
 Resouesta: La Ecuacion Final del Motor rwswpecto al motor- union del sistema es de: $$J_m \cdot \frac{d^2 \Delta m(t)}{dt^2} = - B_m \cdot \frac{d \Delta m(t)}{dt} - k \left[ \Delta m(t) - \Delta \theta(t) \right] + T_m(t)$$
 
-Ejercicio 2
+# 📚Ejercicio 2
 La imagen que muestra de la figura 4.7 muestra un sistema con Tren de Engranajes con una relacion de engranajes n= N1/N2. El par de motor es Tm(t), y T2(t) representa el par de carga.
 
 a) Encuentre una relacion de Engranjes optima n,tal que la aceleracion de la carga 
@@ -466,12 +467,12 @@ $$
 T_1 = n \cdot T_2
 $$
 
-## 7. Conclusiones
+## 9. Conclusiones
    1. Los sistemas mecanicos se pueden representar con modelos matematicos que permiten encontrar una funcion que modele dicho sistema.
    2. Las Ecuaciones Difereanciales permiten solucionar cualquier sistema para describir el movimiento en cualquier instante de tiempo
    3. La Energia Cinetica, La Energia Potencial y el Concepto del Trabajo, son sistemas similiares a los sitemas masa-resorte pero sus ecuaciones y modelos cambian en el dominio del tiempo.
 
-## 8. Referencias
+## 10. Referencias
    
 Jorge Eduardo Cote Ballesteros. (2025). Sistemas Rotacionales aplicados al trabajo ETITC.
 
