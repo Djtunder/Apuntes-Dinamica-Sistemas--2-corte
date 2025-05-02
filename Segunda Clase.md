@@ -268,9 +268,9 @@ $$300x¨2+22500x2-22500x1=0300 \ddot{x}_2 + 22500 x_2 - 22500 x_1 = 0300x¨2+225
 
 | Componente         | Fuerza-velocidad                                      | Fuerza-desplazamiento              | Impedancia \( Z_M(s) \) |
 |--------------------|-------------------------------------------------------|------------------------------------|-------------------------|
-| **Resorte**        | \( f(t) = K \int_0^t \dot{x}(\tau) \, d\tau \)        | \( f(t) = K x(t) \)               | \( K \)                 |
-| **Amortiguador viscoso** | \( f(t) = f_y \dot{x}(t) \)                         | \( f(t) = f_y \frac{dx(t)}{dt} \) | \( f_y s \)             |
-| **Masa**           | \( f(t) = M \frac{d \dot{x}(t)}{dt} \)               | \( f(t) = M \frac{d^2 x(t)}{dt^2} \) | \( M s^2 \)             |
+| **Resorte**        | $$\( f(t) = K \int_0^t \dot{x}(\tau) \, d\tau \)$$    | $$\( f(t) = K x(t) \)$$            |  $$\( K \) $$           |
+| **Amortiguador viscoso **| $$\( f(t) = f_y \dot{x}(t) \) $$                | $$\( f(t) = f_y \frac{dx(t)}{dt} \)$$|  $$ \( f_y s \)$$     |
+| **Masa**           | $$\( f(t) = M \frac{d \dot{x}(t)}{dt} \) $$           | $$\( f(t) = M \frac{d^2 x(t)}{dt^2} \)$$ | $$\( M s^2 \)$$   |
 
 
 # 8. Ejericios
