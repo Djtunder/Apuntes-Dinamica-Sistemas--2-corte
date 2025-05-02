@@ -35,32 +35,34 @@ Figra 4.1 Imagen de la estructura de un amplificador operacional
 
  ## 4.2 Caracteristicas de los Amplificadores Operacionales
 
-# 4.21 Entradas:
+## 4.21 Entradas:
 
 Entrada no inversora (+ Vin): La señal que se introduce en esta entrada no cambia de signo en la salida. Es decir, si la señal de entrada se aumenta, la salida también lo hace de manera proporcional.
 
 Entrada inversora (- Vin): En esta entrada, la señal de entrada se invierte en la salida. Si la señal de entrada aumenta, la salida disminuirá en la misma proporción, pero con signo opuesto.
 
-# 4.22 Suministro de Voltaje (Vs):
+## 4.22 Suministro de Voltaje (Vs):
 
 Los amplificadores operacionales requieren una alimentación positiva (+Vs) y negativa (-Vs) para funcionar correctamente, lo que les permite amplificar señales dentro de un rango determinado. La salida no puede exceder estos valores de voltaje.
 
-# 4.23 Salida (Vout):
+## 4.23 Salida (Vout):
 
 La salida de un amplificador operacional se basa en las señales de las entradas, multiplicadas por el factor de ganancia del amplificador (dependiendo de la configuración del circuito). La señal puede ser positiva o negativa dependiendo de las entradas y la configuración del amplificador (inversora o no inversora).
 
-# 4.24 Configuración del amplificador:
+## 4.24 Configuración del amplificador:
 
 El amplificador operacional puede usarse en diversas configuraciones (inversora, no inversora, seguidor de voltaje, etc.), y su comportamiento depende de cómo se conecten las resistencias en el circuito. En el caso de la configuración mostrada en la imagen, el amplificador tiene dos entradas (una inversora y una no inversora) y puede amplificar la señal según sea necesario.
 
-# 4.25 Ganancia:
+## 4.25 Ganancia:
 
 La ganancia de un amplificador operacional ideal es muy alta, lo que significa que cualquier diferencia de voltaje entre las entradas, por pequeña que sea, se amplificará de manera significativa. En la práctica, la ganancia se controla a través de la retroalimentación externa en el circuito.
 
-# 4.26 Uso común:
+## 4.26 Uso común:
 
 Se utilizan para amplificar señales débiles, realizar operaciones matemáticas (como sumas, restas, integrales y derivadas), y en muchos circuitos de control y procesamiento de señales.
 
-5. Amplificador no inversor
+# 5. Amplificador no inversor
+   5.1 🔑 Amplificador Operacional: El amplificador no-Inversor es una configuración que permite amplificar una señal electrónica. Entonces su caracteristica, no altera la fase de entrada. Recordemos que un amplificador operacional tiene 2 entradas y una salida, la entrada positiva o no-inversora y la negativa o entrada inversora.
 
+   
 
