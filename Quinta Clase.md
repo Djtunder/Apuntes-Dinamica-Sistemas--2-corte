@@ -84,6 +84,8 @@ Solución
 \*{Amplificador no inversor}
 
 
+
+
 $$ i_1 - i_2 = 0 $$
 
 
