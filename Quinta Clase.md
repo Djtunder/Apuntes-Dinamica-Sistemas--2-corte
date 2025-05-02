@@ -64,5 +64,19 @@ Se utilizan para amplificar señales débiles, realizar operaciones matemáticas
 # 5. Amplificador no inversor
    5.1 🔑 Amplificador Operacional: El amplificador no-Inversor es una configuración que permite amplificar una señal electrónica. Entonces su caracteristica, no altera la fase de entrada. Recordemos que un amplificador operacional tiene 2 entradas y una salida, la entrada positiva o no-inversora y la negativa o entrada inversora.
 
-   
+<div>
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/6b7f7f606ce645862ed106ae9d6083cf8ab14279/Build/Amplificador%20no%20inversor.jpg" width="300">
+</div>
+
+Figra 5.1 Imagen  Amplificador No Inversor
+
+5.2 Caracteristicas
+ 5.11 La tension de entradas del amplificador son iguales de V+=V-
+ 5.12 La corriente del Amplificador es 0
+ 5.13 La impedancia de entrada es muy grande
+ 5.14 La impedancia de salida es muy pequeña
+ La resistencia es muy grande, va haber mas impedancia.
+Impedancias = 0
+
+Ejemplo 1 
 
