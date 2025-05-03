@@ -170,7 +170,28 @@ $$R₁A₁(dq₁/dt) = qᵢ - q₁$$
 
 # 2 Tanques
 
+<div align="center">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/2cb5892d66e4682f77fdf9301c60b0b155fa9067/Build/2%20tanques.jpg" width="300"> 
+</div>
 
+
+1. {Ecuaciones generales}:
+
+$$\[\frac{dh_1}{dt} = q_1 - q_2\]$$
+
+$$\[\frac{dh_2}{dt} = q_2 - q_3\]$$
+
+2. {Para el primer tanque}:
+
+$$[R_1 \cdot A_1 \cdot \frac{dh_1}{dt} = q_1 - q_2\]$$
+
+3. {Para el segundo tanque}:
+
+$$[R_2 \cdot A_2 \cdot \frac{dh_2}{dt} = q_2 - q_3\]$$
+
+4. {Relación de caudales}:
+
+$$[q_1 = q_2 = q_3\]$$
 
 
 
