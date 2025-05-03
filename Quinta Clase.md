@@ -217,7 +217,7 @@ $$\[A_1 \frac{dh_1}{dt} = \left( (q_i - R_2 A_2 \frac{dq_2}{dt} + q_2) \right)\]
 
 $$\[R_1 q_1 + h_2 = h_1\]$$
 
-5. {Ecuación general para el segundo tanque:}
+6. {Ecuación general para el segundo tanque:}
 
 $$\[R_1 \left( R_2 A_2 \frac{dq_2}{dt} + q_2 \right) + R_2 q_2 = h_1\]$$
 
@@ -232,9 +232,17 @@ $$[\frac{d}{dt} \left( R_1 \left( R_2 A_2 \frac{dq_2}{dt} + q_2 \right) + R_2 q_
 $$\[A_1 R_1 R_2 A_2 \frac{d^2 q_2}{dt^2} + (A_1 R_1 + A_1 R_2 + R_2 A_2) \frac{dq_2}{dt} - q_2 = q_i\]$$
 
 
-6. Ejericios
+7. Tablas
+   
+ | Componente             	| Funcion Matematica 	| Ecuación en función del tiempo                        	|
+|------------------------	|--------------------	|-------------------------------------------------------	|
+| Flujo de Salida        	| $$q1, q2$$         	| $$q_1 = \frac{h_1}{R_1}$$                             	|
+| Intercambio de Energia 	| $$A1, A2$$         	| $$A_1 \left( \frac{d h_1}{d t} \right) = q_i - q_1 $$ 	|
+| Altura del Tanque      	| $$ h_1, h-2$$      	| $$ h_1=$${R_1}*{q_1}$$                                	|
 
-Desarrollar el Modelo h2 como salida
+#8. Ejericios 
+
+8.1 Desarrollar el Modelo h2 como salida
 
 <div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/cd37648716037fe98bf3bbd154bb35f8ad03baa1/Build/Modelo%20h2%20como%20salida.jpg">
@@ -273,9 +281,9 @@ La ecuación diferencial que describe la variación de \( h_2 \) con respecto al
 
 $$\[\frac{dh_2}{dt} = \frac{1}{A_2} \left( \frac{h_1 - h_2}{R_1} - \frac{h_2}{R_2} \right)\]$$
 
-Ejercicio 2
+8.2 Ejercicio 2
 <div align="center">
-<img src="https://github.com/user-attachments/assets/c439c492-7d48-471d-a437-804f4498ffae)" width="300">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/8223443bb585fc9334e5e122a8f1d2f1fda5f28c/Build/Ejercicios%20amplificador%20Operacional.jpg" width="300">
 </div>
 # Solucion
 
@@ -305,5 +313,15 @@ $$\[\frac{V_o}{V_i} = \frac{R_2 + R_3}{R_1 R_2}\]$$
 
 Este es el resultado final para la ganancia del amplificador.
 
+# 9. Conclusiones
+Los Amplificadores operacional son de gran utlidad en sistemas industriales y en control, y gracias 
+
+# 10. Conclusiones
+
+Desde la teoría de dinámica de sistemas, los sistemas hidráulicos y los amplificadores operacionales muestran respuestas similares frente a entradas escalón, impulso o seno, como retardo, ganancia y régimen permanente. Esto permite aplicar técnicas de análisis y control como el ajuste de parámetros para mejorar la estabilidad o el tiempo de respuesta del sistema.
+
+Al modelar ambos casos con ecuaciones diferenciales, se pueden diseñar controladores PID, filtros o sistemas de regulación más precisos, tanto en circuitos hidráulicos (tanques, válvulas) como electrónicos (amplificadores, filtros activos), optimizando así su comportamiento ante perturbaciones externas.
+
+# 11. Referencias
 
 
