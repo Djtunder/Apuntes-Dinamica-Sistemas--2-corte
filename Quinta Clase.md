@@ -232,7 +232,7 @@ $$[\frac{d}{dt} \left( R_1 \left( R_2 A_2 \frac{dq_2}{dt} + q_2 \right) + R_2 q_
 $$\[A_1 R_1 R_2 A_2 \frac{d^2 q_2}{dt^2} + (A_1 R_1 + A_1 R_2 + R_2 A_2) \frac{dq_2}{dt} - q_2 = q_i\]$$
 
 
-7. Tablas
+##7. Tablas
    
  | Componente             	| Funcion Matematica 	| Ecuación en función del tiempo                        	|
 |------------------------	|--------------------	|-------------------------------------------------------	|
