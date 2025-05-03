@@ -78,7 +78,7 @@ Figra 5.1 Imagen  Amplificador No Inversor
  La resistencia es muy grande, va haber mas impedancia.
 Impedancias = 0
 
-Ejemplo 1 
+💡 Ejemplo 1 
 Solución 
 
 \*{Amplificador no inversor}
@@ -99,7 +99,7 @@ $$\frac{e_o}{R_2} = e_i \left( \frac{1}{R_2} + \frac{1}{R_1} \right)$$
 
 $$e_o = e_i \left( 1 + \frac{R_2}{R_1} \right)$$
 
-Ejemplo 2
+💡 Ejemplo 2
 
 Con Elementos Almacenadores de energia
 
@@ -240,7 +240,7 @@ $$\[A_1 R_1 R_2 A_2 \frac{d^2 q_2}{dt^2} + (A_1 R_1 + A_1 R_2 + R_2 A_2) \frac{d
 | Intercambio de Energia 	| $$A1, A2$$         	| $$A_1 \left( \frac{d h_1}{d t} \right) = q_i - q_1 $$ 	|
 | Altura del Tanque      	| $$ h_1, h-2$$      	| $$ h_1=$${R_1}*{q_1}$$                                	|
 
-#8. Ejericios 
+#8. Ejericios 📚 
 
 8.1 Desarrollar el Modelo h2 como salida
 
@@ -281,7 +281,8 @@ La ecuación diferencial que describe la variación de \( h_2 \) con respecto al
 
 $$\[\frac{dh_2}{dt} = \frac{1}{A_2} \left( \frac{h_1 - h_2}{R_1} - \frac{h_2}{R_2} \right)\]$$
 
-8.2 Ejercicio 2
+#8. Ejericios 📚 
+8.2 Ejercicio 2 
 <div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/8223443bb585fc9334e5e122a8f1d2f1fda5f28c/Build/Ejercicios%20amplificador%20Operacional.jpg" width="300">
 </div>
@@ -323,5 +324,11 @@ Desde la teoría de dinámica de sistemas, los sistemas hidráulicos y los ampli
 Al modelar ambos casos con ecuaciones diferenciales, se pueden diseñar controladores PID, filtros o sistemas de regulación más precisos, tanto en circuitos hidráulicos (tanques, válvulas) como electrónicos (amplificadores, filtros activos), optimizando así su comportamiento ante perturbaciones externas.
 
 # 11. Referencias
+
+Jorge Eduardo Cote Ballesteros- Clase 4:(file:///C:/Users/hp/Downloads/5.%20Sistemas%20el%C3%A9ctricos.pdf)
+
+Sistemas de Control Automatico- Benjamin Cubo-1996: https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/sistemas-de-control-automatico-benjamin-c-kuo.pdf
+
+Dinamica de Sistemas- Ogata K: https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
 
 
