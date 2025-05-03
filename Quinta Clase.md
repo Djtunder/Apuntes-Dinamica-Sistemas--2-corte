@@ -211,13 +211,13 @@ $$\[R_2 A_2 \frac{dq_2}{dt} = (q_1 - q_2)\]$$
 
 $$[R_2 A_2 \frac{dq_2}{dt} + q_2 = q_1\]$$
 
-4. \textbf{Ecuación general para el primer tanque:}
+4. {Ecuación general para el primer tanque:}
 
 $$\[A_1 \frac{dh_1}{dt} = \left( (q_i - R_2 A_2 \frac{dq_2}{dt} + q_2) \right)\]$$
 
 $$\[R_1 q_1 + h_2 = h_1\]$$
 
-5. \textbf{Ecuación general para el segundo tanque:}
+5. {Ecuación general para el segundo tanque:}
 
 $$\[R_1 \left( R_2 A_2 \frac{dq_2}{dt} + q_2 \right) + R_2 q_2 = h_1\]$$
 
