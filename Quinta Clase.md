@@ -193,5 +193,42 @@ $$[R_2 \cdot A_2 \cdot \frac{dh_2}{dt} = q_2 - q_3\]$$
 
 $$[q_1 = q_2 = q_3\]$$
 
+1. \textbf{Relación de caudales:}
+
+\[
+q_1 = \frac{h_1 - h_2}{R_1}
+\]
+
+\[
+q_2 = \frac{h_2}{R_2}
+\]
+
+2. \textbf{Ecuaciones diferenciales para los tanques:}
+
+\[
+A_1 \frac{dh_1}{dt} = (q_i - q_1)
+\]
+
+\[
+A_2 \frac{dh_2}{dt} = (q_1 - q_2)
+\]
+
+3. \textbf{Ecuaciones con derivadas de caudales:}
+
+$$\[R_2 A_2 \frac{dq_2}{dt} = (q_1 - q_2)\]$$
+
+$$[R_2 A_2 \frac{dq_2}{dt} + q_2 = q_1\]$$
+
+4. \textbf{Ecuación general para el primer tanque:}
+
+$$\[A_1 \frac{dh_1}{dt} = \left( (q_i - R_2 A_2 \frac{dq_2}{dt} + q_2) \right)\]$$
+
+$$\[R_1 q_1 + h_2 = h_1\]$$
+
+5. \textbf{Ecuación general para el segundo tanque:}
+
+$$\[R_1 \left( R_2 A_2 \frac{dq_2}{dt} + q_2 \right) + R_2 q_2 = h_1\]$$
+
+
 
 
