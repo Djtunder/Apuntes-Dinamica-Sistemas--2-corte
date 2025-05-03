@@ -164,5 +164,11 @@ $$h₁ = q₁ * R₁$$
 
 $$R₁A₁(dq₁/dt) = qᵢ - q₁$$
 
+# Casos de Tanques Interconectados
+
+# 2 Tanques
+
+
+
 
 
