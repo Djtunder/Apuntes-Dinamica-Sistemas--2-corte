@@ -275,10 +275,8 @@ $$\[\frac{dh_2}{dt} = \frac{1}{A_2} \left( \frac{h_1 - h_2}{R_1} - \frac{h_2}{R_
 
 Ejercicio 2
 <div align="center">
-<img src="
+<img src="https://github.com/user-attachments/assets/c439c492-7d48-471d-a437-804f4498ffae)" width="300">
 </div>
-
-
 # Solucion
 
 # Cálculo de \( V_o \) y Ganancia del Amplificador
