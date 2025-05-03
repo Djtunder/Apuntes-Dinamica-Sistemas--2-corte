@@ -237,8 +237,43 @@ $$\[A_1 R_1 R_2 A_2 \frac{d^2 q_2}{dt^2} + (A_1 R_1 + A_1 R_2 + R_2 A_2) \frac{d
 Desarrollar el Modelo h2 como salida
 
 <div align="center">
-<img src="">
+<img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/cd37648716037fe98bf3bbd154bb35f8ad03baa1/Build/Modelo%20h2%20como%20salida.jpg">
 </div>
+
+Solución 
+{Desarrollo del modelo con \( h_2 \) como salida}
+
+Queremos desarrollar el modelo de dos tanques interconectados con \( h_2 \) como salida. A continuación, se derivan las ecuaciones correspondientes:
+
+{1. Relación de caudales}
+Las relaciones para los caudales \( q_1 \) y \( q_2 \) son:
+
+$$\[q_1 = \frac{h_1 - h_2}{R_1}\]$$
+
+$$\[q_2 = \frac{h_2}{R_2}\]$$
+
+{2. Ecuaciones diferenciales}
+Las ecuaciones diferenciales para los tanques son:
+
+$$\[A_1 \frac{dh_1}{dt} = (q_i - q_1)\]$$
+
+$$[A_2 \frac{dh_2}{dt} = (q_1 - q_2)\]$$
+{3. Sustitución de las ecuaciones de caudal}
+Sustituimos las expresiones de \( q_1 \) y \( q_2 \) en la ecuación de \( h_2 \):
+
+$$\[A_2 \frac{dh_2}{dt} = \left( \frac{h_1 - h_2}{R_1} - \frac{h_2}{R_2} \right)\]$$
+
+{4. Despeje de la derivada de \( h_2 \)}
+Despejamos \( \frac{dh_2}{dt} \):
+
+$$\[\frac{dh_2}{dt} = \frac{1}{A_2} \left( \frac{h_1 - h_2}{R_1} - \frac{h_2}{R_2} \right)\]$$
+
+\subsection*{5. Ecuación final}
+La ecuación diferencial que describe la variación de \( h_2 \) con respecto al tiempo es:
+
+$$\[\frac{dh_2}{dt} = \frac{1}{A_2} \left( \frac{h_1 - h_2}{R_1} - \frac{h_2}{R_2} \right)\]$$
+
+Ejercicio 2
 
 
 
