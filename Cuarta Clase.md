@@ -5,29 +5,28 @@
 
  ## 1. Introducción
  Los Sistemas Electricos, los hemos aplicados en nuestra vida cotidiana, ya sea en instalaciones electricas, en Analisis de Circuitos DC y AC, aqui vamos analizar los Circuitos RLC, y sus elementos que los componenen con metodologias de solucion ya antes vistas que son importantes para solucinar estos sitemas.
-   
- ## 2.Objetivos
- 
-   ## 2.1 Objetivos Generales
-   
-  2.11 Reconcer los elementos basicos en un circuito RLC, como una resistencia, y un Inductor.
-  
-   2.13 Identificar como se representan las conexiones basicas de un cicruito RLC.
-   
-## 2.12 Objetivos Especificos
 
-   2.12.1 Resolver por metodo de Mallas y Nodos Circuitos RLC, teniendo en cuenta sus caracteristicas para encontrar voltajes y voltajes segun se requiera.
-   
-   2.13.1 Identificar los modelos matematicos necesarios para resolver problemas que involucren la solucion de circuitos Electricos.
-   
-   2.14.1 Aplicar Ecuaciones Diferenaciales, para reducir sistemas de ecuaciones de Segundo Orden a primer Orden, para encontrar la funcion de dicho circuito.
-   
-
- ##   3.  Resumen
+  ## 2. Resumen
  
   Los sistemas eléctricos están presentes en nuestra vida cotidiana, desde instalaciones eléctricas hasta el análisis de circuitos DC y AC. En este contexto, se abordarán los circuitos RLC y sus componentes, aplicando metodologías de solución previamente vistas, las cuales son fundamentales para resolver estos sistemas.
-      
-## 4. Definiciones
+   
+ ## 3.Objetivos
+ 
+   ## 3.1 Objetivos Generales
+   
+  3.11 Reconcer los elementos basicos en un circuito RLC, como una resistencia, y un Inductor.
+  
+   3.13 Identificar como se representan las conexiones basicas de un cicruito RLC.
+   
+## 3.12 Objetivos Especificos
+
+   3.12.1 Resolver por metodo de Mallas y Nodos Circuitos RLC, teniendo en cuenta sus caracteristicas para encontrar voltajes y voltajes segun se requiera.
+   
+   3.13.1 Identificar los modelos matematicos necesarios para resolver problemas que involucren la solucion de circuitos Electricos.
+   
+   3.14.1 Aplicar Ecuaciones Diferenaciales, para reducir sistemas de ecuaciones de Segundo Orden a primer Orden, para encontrar la funcion de dicho circuito.
+   
+ ## 4. Definiciones
 
  4.1🔑Circuito: Un circuito es un conjunto de elementos eléctricos conectados entre sí de manera que permiten el paso de corriente eléctrica. Un circuito básico generalmente está compuesto por fuentes de energía 
 
@@ -44,7 +43,7 @@ Figura 4.1 Imagen de un Circuito RLC
  
  4.4 🔑 Nodo:un nodo es cualquier punto donde se conectan dos o más componentes o elementos del circuito, como resistencias, fuentes de voltaje, o conductores. Básicamente, un nodo es un punto de unión o intersección dentro de un circuito eléctrico.
 
- ## 5. Ejemplos
+ ## 💡 5. Ejemplos
 
  ### 1. Análisis de Ohm y Digital
 
@@ -103,7 +102,7 @@ $$[V_{AB} = 2 \cdot \frac{dy(t)}{dt}\]$$
 
 $$\[u(t) - 6 \cdot \frac{dy(t)}{dt} - 2y(t) = 0\]$$
 
-## Ejemplo 3
+## 💡 Ejemplo 3
 
 Halllar el modelo matematico de la siguiente figura 
 
@@ -136,7 +135,7 @@ $$[ \frac{dex}{dt} + e_o + C_2 \cdot \frac{d^2 e_o}{dC_2^2} + \frac{dC_0}{dt} = 
 
 Tabla 5.1 Concepto de las tablas de conceptos que se trabajan en corriente, Voltajes y Resistencias
 
-## 8. Ejercicios
+## 8. Ejercicios 📚
 
 <div align="center">
 <img src="https://github.com/Djtunder/Apuntes-Dinamica-Sistemas--2-corte/blob/a42b4ec2184dc5891d8a04711ac1b1e210046bdf/Build/problema%20circuito%201.jpg" width="300">
@@ -173,7 +172,7 @@ $$R_2 i_2 + \frac{1}{C} \int i_2 \, dt = L \frac{d}{dt} i_1$$
 
 Este sistema de ecuaciones debe tener en cuenta para interpretar como se aplica la ley de Khirchoff en ananalisis de mallas
 
-# Ejercicio 2
+# Ejercicio 2 📚
 
 En el siguiente ejercicio, Obtenga el modelo matematico que se pueda resolver este circuito por analisis nodal, para hallar la funcion de la salida, con respecto a su entrada
 
@@ -196,12 +195,12 @@ Para el análisis de este circuito con análisis de nodos, definimos los siguien
 Para el nodo 1, se aplica la ley de corrientes de Kirchhoff (LCK):
 $$\[\frac{V_{\text{in}} - V_1}{R_1} + C_1 \frac{dV_1}{dt} + \frac{V_1 - V_2}{L_1} = 0\]$$
 
-\subsubsection*{Nodo 2}
+{Nodo 2}
 
 Para el nodo 2, se aplica nuevamente la LCK:
 $$\[\frac{V_2 - V_1}{L_1} + \frac{V_2}{R_2} + C_2 \frac{dV_2}{dt} = 0\]$$
 
-\subsection*{Sistema de ecuaciones diferenciales}
+{Sistema de ecuaciones diferenciales}
 
 El sistema de ecuaciones que describe el comportamiento del circuito es:
 
@@ -216,7 +215,7 @@ $$\( V_{\text{out}} = V_2 \).$$
 # 9. Código
 
 💡Ejemplo 4
-:
+
 % Parámetros del circuito
 
 R1 = 10;   % Resistencia R1 en ohmios
