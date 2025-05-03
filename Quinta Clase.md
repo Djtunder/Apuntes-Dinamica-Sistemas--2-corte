@@ -274,7 +274,38 @@ La ecuación diferencial que describe la variación de \( h_2 \) con respecto al
 $$\[\frac{dh_2}{dt} = \frac{1}{A_2} \left( \frac{h_1 - h_2}{R_1} - \frac{h_2}{R_2} \right)\]$$
 
 Ejercicio 2
+<div align="center">
+<img src="
+</div>
 
+
+# Solucion
+
+# Cálculo de \( V_o \) y Ganancia del Amplificador
+
+Para calcular \( V_o \) y la ganancia \( \frac{V_o}{V_i} \) del amplificador, consideramos el siguiente análisis:
+
+## Paso 1: Aplicar la regla de la retroalimentación negativa
+La retroalimentación negativa implica que \( V_+ = V_- \), es decir, la terminal inversora se mantiene a un potencial igual al de la terminal no inversora, que en este caso está a tierra.
+
+## Paso 2: Análisis de corriente y la relación de voltaje
+Aplicamos la ley de Kirchhoff para corrientes (KCL) en el nodo de la terminal inversora:
+
+$$\[\frac{V_i}{R_1} = \frac{V_o}{R_2} + \frac{V_o}{R_3}\]$$
+
+## Paso 3: Despejar \( V_o \)
+Despejamos \( V_o \) de la ecuación:
+
+$$\[\frac{V_i}{R_1} = V_o \left( \frac{1}{R_2} + \frac{1}{R_3} \right)\]$$
+
+$$\[V_o = V_i \left( \frac{R_2 + R_3}{R_1 R_2} \right)\]$$
+
+## Paso 4: Ganancia del amplificador
+La ganancia \( \frac{V_o}{V_i} \) es:
+
+$$\[\frac{V_o}{V_i} = \frac{R_2 + R_3}{R_1 R_2}\]$$
+
+Este es el resultado final para la ganancia del amplificador.
 
 
 
